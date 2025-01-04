@@ -1,0 +1,121 @@
+{
+"display": {
+"gui": {
+"rotation": [ 30, 225, 0 ],
+"translation": [ 0, 3, 0],
+"scale":[ 1, 1, 1 ]
+},
+"ground": {
+"rotation": [ 0, 0, 0 ],
+"translation": [ 0, 3, 0],
+"scale":[ 0.5, 0.5, 0.5 ]
+},
+"fixed": {
+"rotation": [ 0, 180, 0 ],
+"translation": [ 0, 4, 0],
+"scale":[ 1, 1, 1 ]
+},
+"thirdperson_righthand": {
+"rotation": [ 45, 45, 0 ],
+"translation": [ 0, 3, 0 ],
+"scale": [ 0.5, 0.5, 0.5 ]
+}
+},
+"texture_size": [16, 16],
+"textures": {
+"martix_visible_blocks.side.x": "grid_visible_block_edges:block/side_x",
+"martix_visible_blocks.side.y": "grid_visible_block_edges:block/side_y",
+"martix_visible_blocks.side.z": "grid_visible_block_edges:block/side_z",
+"all": "block/heavy_core",
+"particle": "block/heavy_core"
+},
+"elements": [
+{
+	"from": [ 0, 0, 0 ],
+	"to": [ 16, 1, 16 ],
+	"light_emission": 15,
+	"shade": false,
+	"faces": {
+		"west":  { "texture": "#martix_visible_blocks.side.x", "uv": [0,0,16,16], "rotation": 270, "cullface": "west" },
+		"north": { "texture": "#martix_visible_blocks.side.z", "uv": [0,0,16,16], "rotation": 270, "cullface": "north" },
+		"east":  { "texture": "#martix_visible_blocks.side.x", "uv": [0,0,16,16], "rotation": 270, "cullface": "east" },
+		"south": { "texture": "#martix_visible_blocks.side.z", "uv": [0,0,16,16], "rotation": 270, "cullface": "south" }
+	}
+},
+{
+	"from": [ 0, 15, 0 ],
+	"to": [ 16, 16, 16 ],
+	"light_emission": 15,
+	"shade": false,
+	"faces": {
+		"west":  { "texture": "#martix_visible_blocks.side.x", "uv": [0,0,16,16], "rotation": 90, "cullface": "west" },
+		"north": { "texture": "#martix_visible_blocks.side.z", "uv": [0,0,16,16], "rotation": 90, "cullface": "north" },
+		"east":  { "texture": "#martix_visible_blocks.side.x", "uv": [0,0,16,16], "rotation": 90, "cullface": "east" },
+		"south": { "texture": "#martix_visible_blocks.side.z", "uv": [0,0,16,16], "rotation": 90, "cullface": "south" }
+	}
+},
+{
+	"from": [ 0, 0, 0 ],
+	"to": [ 16, 16, 1 ],
+	"light_emission": 15,
+	"shade": false,
+	"faces": {
+		"west":  { "texture": "#martix_visible_blocks.side.x", "uv": [0,0,16,16], "rotation": 0, "cullface": "west" },
+		"up": { "texture": "#martix_visible_blocks.side.y", "uv": [0,0,16,16], "rotation": 90, "cullface": "up" },
+		"east":  { "texture": "#martix_visible_blocks.side.x", "uv": [0,0,16,16], "rotation": 180, "cullface": "east" },
+		"down": { "texture": "#martix_visible_blocks.side.y", "uv": [0,0,16,16], "rotation": 270, "cullface": "down" }
+	}
+},
+{
+	"from": [ 0, 0, 15 ],
+	"to": [ 16, 16, 16 ],
+	"light_emission": 15,
+	"shade": false,
+	"faces": {
+		"west":  { "texture": "#martix_visible_blocks.side.x", "uv": [0,0,16,16], "rotation": 180, "cullface": "west" },
+		"up": { "texture": "#martix_visible_blocks.side.y", "uv": [0,0,16,16], "rotation": 270, "cullface": "up" },
+		"east":  { "texture": "#martix_visible_blocks.side.x", "uv": [0,0,16,16], "rotation": 0, "cullface": "east" },
+		"down": { "texture": "#martix_visible_blocks.side.y", "uv": [0,0,16,16], "rotation": 90, "cullface": "down" }
+	}
+},
+{
+	"from": [ 0, 0, 0 ],
+	"to": [ 1, 16, 16 ],
+	"light_emission": 15,
+	"shade": false,
+	"faces": {
+		"north":  { "texture": "#martix_visible_blocks.side.z", "uv": [0,0,16,16], "rotation": 180, "cullface": "north" },
+		"up": { "texture": "#martix_visible_blocks.side.y", "uv": [0,0,16,16], "rotation": 0, "cullface": "up" },
+		"south":  { "texture": "#martix_visible_blocks.side.z", "uv": [0,0,16,16], "rotation": 0, "cullface": "south" },
+		"down": { "texture": "#martix_visible_blocks.side.y", "uv": [0,0,16,16], "rotation": 0, "cullface": "down" }
+	}
+},
+{
+	"from": [ 15, 0, 0 ],
+	"to": [ 16, 16, 16 ],
+	"light_emission": 15,
+	"shade": false,
+	"faces": {
+		"north":  { "texture": "#martix_visible_blocks.side.z", "uv": [0,0,16,16], "rotation": 0, "cullface": "north" },
+		"up": { "texture": "#martix_visible_blocks.side.y", "uv": [0,0,16,16], "rotation": 180, "cullface": "up" },
+		"south":  { "texture": "#martix_visible_blocks.side.z", "uv": [0,0,16,16], "rotation": 180, "cullface": "south" },
+		"down": { "texture": "#martix_visible_blocks.side.y", "uv": [0,0,16,16], "rotation": 180, "cullface": "down" }
+	}
+},
+{
+"name": "heavy_core",
+"from": [4, 0.001, 4],
+
+"to": [12, 8, 12],
+
+"faces": {
+"north": {"uv": [0, 8, 8, 16], "texture": "all"},
+"east": {"uv": [0, 8, 8, 16], "texture": "all"},
+"south": {"uv": [0, 8, 8, 16], "texture": "all"},
+"west": {"uv": [0, 8, 8, 16], "texture": "all"},
+"up": {"uv": [0, 0, 8, 8], "texture": "all"},
+"down": {"uv": [8, 0, 16, 8], "texture": "all"}
+}
+}
+]
+}

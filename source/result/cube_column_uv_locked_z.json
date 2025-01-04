@@ -1,0 +1,103 @@
+{
+"parent": "block/block",
+"elements": [
+{
+	"from": [ 0, 0, 0 ],
+	"to": [ 16, 1, 16 ],
+	"light_emission": 15,
+	"shade": false,
+	"faces": {
+		"west":  { "texture": "#martix_visible_blocks.side.x", "uv": [0,0,16,16], "rotation": 270, "cullface": "west" },
+		"north": { "texture": "#martix_visible_blocks.side.z", "uv": [0,0,16,16], "rotation": 270, "cullface": "north" },
+		"east":  { "texture": "#martix_visible_blocks.side.x", "uv": [0,0,16,16], "rotation": 270, "cullface": "east" },
+		"south": { "texture": "#martix_visible_blocks.side.z", "uv": [0,0,16,16], "rotation": 270, "cullface": "south" }
+	}
+},
+{
+	"from": [ 0, 15, 0 ],
+	"to": [ 16, 16, 16 ],
+	"light_emission": 15,
+	"shade": false,
+	"faces": {
+		"west":  { "texture": "#martix_visible_blocks.side.x", "uv": [0,0,16,16], "rotation": 90, "cullface": "west" },
+		"north": { "texture": "#martix_visible_blocks.side.z", "uv": [0,0,16,16], "rotation": 90, "cullface": "north" },
+		"east":  { "texture": "#martix_visible_blocks.side.x", "uv": [0,0,16,16], "rotation": 90, "cullface": "east" },
+		"south": { "texture": "#martix_visible_blocks.side.z", "uv": [0,0,16,16], "rotation": 90, "cullface": "south" }
+	}
+},
+{
+	"from": [ 0, 0, 0 ],
+	"to": [ 16, 16, 1 ],
+	"light_emission": 15,
+	"shade": false,
+	"faces": {
+		"west":  { "texture": "#martix_visible_blocks.side.x", "uv": [0,0,16,16], "rotation": 0, "cullface": "west" },
+		"up": { "texture": "#martix_visible_blocks.side.y", "uv": [0,0,16,16], "rotation": 90, "cullface": "up" },
+		"east":  { "texture": "#martix_visible_blocks.side.x", "uv": [0,0,16,16], "rotation": 180, "cullface": "east" },
+		"down": { "texture": "#martix_visible_blocks.side.y", "uv": [0,0,16,16], "rotation": 270, "cullface": "down" }
+	}
+},
+{
+	"from": [ 0, 0, 15 ],
+	"to": [ 16, 16, 16 ],
+	"light_emission": 15,
+	"shade": false,
+	"faces": {
+		"west":  { "texture": "#martix_visible_blocks.side.x", "uv": [0,0,16,16], "rotation": 180, "cullface": "west" },
+		"up": { "texture": "#martix_visible_blocks.side.y", "uv": [0,0,16,16], "rotation": 270, "cullface": "up" },
+		"east":  { "texture": "#martix_visible_blocks.side.x", "uv": [0,0,16,16], "rotation": 0, "cullface": "east" },
+		"down": { "texture": "#martix_visible_blocks.side.y", "uv": [0,0,16,16], "rotation": 90, "cullface": "down" }
+	}
+},
+{
+	"from": [ 0, 0, 0 ],
+	"to": [ 1, 16, 16 ],
+	"light_emission": 15,
+	"shade": false,
+	"faces": {
+		"north":  { "texture": "#martix_visible_blocks.side.z", "uv": [0,0,16,16], "rotation": 180, "cullface": "north" },
+		"up": { "texture": "#martix_visible_blocks.side.y", "uv": [0,0,16,16], "rotation": 0, "cullface": "up" },
+		"south":  { "texture": "#martix_visible_blocks.side.z", "uv": [0,0,16,16], "rotation": 0, "cullface": "south" },
+		"down": { "texture": "#martix_visible_blocks.side.y", "uv": [0,0,16,16], "rotation": 0, "cullface": "down" }
+	}
+},
+{
+	"from": [ 15, 0, 0 ],
+	"to": [ 16, 16, 16 ],
+	"light_emission": 15,
+	"shade": false,
+	"faces": {
+		"north":  { "texture": "#martix_visible_blocks.side.z", "uv": [0,0,16,16], "rotation": 0, "cullface": "north" },
+		"up": { "texture": "#martix_visible_blocks.side.y", "uv": [0,0,16,16], "rotation": 180, "cullface": "up" },
+		"south":  { "texture": "#martix_visible_blocks.side.z", "uv": [0,0,16,16], "rotation": 180, "cullface": "south" },
+		"down": { "texture": "#martix_visible_blocks.side.y", "uv": [0,0,16,16], "rotation": 180, "cullface": "down" }
+	}
+},
+{
+"from": [ 0.001, 0.001, 0.001 ],
+
+"to": [ 15.999, 15.999, 15.999 ],
+
+"faces": {
+"down":  { "texture": "#down", "cullface": "down" },
+"up":    { "texture": "#up", "cullface": "up" },
+"north": { "texture": "#north", "cullface": "north" },
+"south": { "texture": "#south", "cullface": "south" },
+"west":  { "texture": "#west", "rotation": 90, "cullface": "west" },
+"east":  { "texture": "#east", "rotation": 90, "cullface": "east" }
+}
+}
+],
+"textures": {
+"martix_visible_blocks.side.x": "grid_visible_block_edges:block/side_x",
+"martix_visible_blocks.side.y": "grid_visible_block_edges:block/side_y",
+"martix_visible_blocks.side.z": "grid_visible_block_edges:block/side_z",
+"particle": "#side",
+"down": "#side",
+"up": "#side",
+"north": "#end",
+"east": "#side",
+"south": "#end",
+"west": "#side"
+}
+}

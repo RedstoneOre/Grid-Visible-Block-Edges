@@ -1,0 +1,49 @@
+{
+  "pack": {
+    "description": [
+      {
+        "bold": true,
+        "color": "#F0F0F0",
+        "font": "minecraft:uniform", 
+        "underlined": true,
+        "text": "G|R"
+      },
+      [
+        {
+          "color": "red",
+          "font": "minecraft:default",
+          "underlined": false,
+          "italic": true,
+          "text": " Vi"
+        },
+        {
+          "color": "green",
+          "text": "si"
+        },
+        {
+          "color": "blue",
+          "text": "bl"
+        },
+        {
+          "color": "white",
+          "text": "e\n"
+        }
+      ],
+      "I|D",
+      [
+        {
+          "color": "aqua",
+          "font": "minecraft:include/default", 
+          "underlined": false,
+          "text": " Block "
+        },
+        {
+          "underlined": true,
+          "text": "| Sides"
+        }
+      ]
+    ],
+    "pack_format": 6,
+    "supported_formats": [5, 46]
+  }
+}
