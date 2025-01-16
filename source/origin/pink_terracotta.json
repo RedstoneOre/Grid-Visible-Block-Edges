@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "minecraft:block/pink_terracotta"
+  "variants": {
+    "": {
+      "model": "minecraft:block/pink_terracotta"
+    }
   }
 }

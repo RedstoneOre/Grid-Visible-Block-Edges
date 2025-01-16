@@ -1,8 +1,13 @@
 {
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "bottom": "minecraft:block/polished_andesite",
-    "side": "minecraft:block/polished_andesite",
-    "top": "minecraft:block/polished_andesite"
+  "variants": {
+    "type=bottom": {
+      "model": "minecraft:block/polished_andesite_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/polished_andesite"
+    },
+    "type=top": {
+      "model": "minecraft:block/polished_andesite_slab_top"
+    }
   }
 }

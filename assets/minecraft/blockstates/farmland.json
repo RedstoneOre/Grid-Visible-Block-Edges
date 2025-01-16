@@ -1,0 +1,127 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "minecraft:block/farmland"
+      },
+      "when": {
+        "AND": [
+          {
+            "moisture": "0"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/farmland"
+      },
+      "when": {
+        "AND": [
+          {
+            "moisture": "1"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/farmland"
+      },
+      "when": {
+        "AND": [
+          {
+            "moisture": "2"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/farmland"
+      },
+      "when": {
+        "AND": [
+          {
+            "moisture": "3"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/farmland"
+      },
+      "when": {
+        "AND": [
+          {
+            "moisture": "4"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/farmland"
+      },
+      "when": {
+        "AND": [
+          {
+            "moisture": "5"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/farmland"
+      },
+      "when": {
+        "AND": [
+          {
+            "moisture": "6"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/farmland_moist"
+      },
+      "when": {
+        "AND": [
+          {
+            "moisture": "7"
+          }
+        ]
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 0
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 90
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 180
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 270
+        }
+      ],
+      "when": {
+        "AND": []
+      }
+    }
+  ]
+}

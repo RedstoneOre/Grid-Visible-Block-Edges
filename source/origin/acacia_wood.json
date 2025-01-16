@@ -1,7 +1,16 @@
 {
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "minecraft:block/acacia_log",
-    "side": "minecraft:block/acacia_log"
+  "variants": {
+    "axis=x": {
+      "model": "minecraft:block/acacia_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "minecraft:block/acacia_wood"
+    },
+    "axis=z": {
+      "model": "minecraft:block/acacia_wood",
+      "x": 90
+    }
   }
 }

@@ -1,21 +1,25 @@
 {
-    "textures": {
-        "particle": "block/cake_side",
-        "bottom": "block/cake_bottom",
-        "top": "block/cake_top",
-        "side": "block/cake_side"
+  "variants": {
+    "bites=0": {
+      "model": "minecraft:block/cake"
     },
-    "elements": [
-        {   "from": [ 1, 0, 1 ],
-            "to": [ 15, 8, 15 ],
-            "faces": {
-                "down":  { "texture": "#bottom", "cullface": "down" },
-                "up":    { "texture": "#top" },
-                "north": { "texture": "#side" },
-                "south": { "texture": "#side" },
-                "west":  { "texture": "#side" },
-                "east":  { "texture": "#side" }
-            }
-        }
-    ]
+    "bites=1": {
+      "model": "minecraft:block/cake_slice1"
+    },
+    "bites=2": {
+      "model": "minecraft:block/cake_slice2"
+    },
+    "bites=3": {
+      "model": "minecraft:block/cake_slice3"
+    },
+    "bites=4": {
+      "model": "minecraft:block/cake_slice4"
+    },
+    "bites=5": {
+      "model": "minecraft:block/cake_slice5"
+    },
+    "bites=6": {
+      "model": "minecraft:block/cake_slice6"
+    }
+  }
 }

@@ -1,6 +1,10 @@
 {
-  "parent": "minecraft:block/cross",
-  "textures": {
-    "cross": "minecraft:block/cave_vines_plant"
+  "variants": {
+    "berries=false": {
+      "model": "minecraft:block/cave_vines_plant"
+    },
+    "berries=true": {
+      "model": "minecraft:block/cave_vines_plant_lit"
+    }
   }
 }

@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/flower_pot_cross",
-  "textures": {
-    "plant": "minecraft:block/white_tulip"
+  "variants": {
+    "": {
+      "model": "minecraft:block/potted_white_tulip"
+    }
   }
 }

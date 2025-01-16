@@ -1,0 +1,55 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "minecraft:block/large_fern_bottom"
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "lower"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/large_fern_top"
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "upper"
+          }
+        ]
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 0
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 90
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 180
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 270
+        }
+      ],
+      "when": {
+        "AND": []
+      }
+    }
+  ]
+}

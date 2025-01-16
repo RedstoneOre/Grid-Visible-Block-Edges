@@ -1,8 +1,13 @@
 {
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "bottom": "minecraft:block/granite",
-    "side": "minecraft:block/granite",
-    "top": "minecraft:block/granite"
+  "variants": {
+    "type=bottom": {
+      "model": "minecraft:block/granite_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/granite"
+    },
+    "type=top": {
+      "model": "minecraft:block/granite_slab_top"
+    }
   }
 }

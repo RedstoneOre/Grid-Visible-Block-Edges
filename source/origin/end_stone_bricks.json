@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "minecraft:block/end_stone_bricks"
+  "variants": {
+    "": {
+      "model": "minecraft:block/end_stone_bricks"
+    }
   }
 }

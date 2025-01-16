@@ -1,0 +1,55 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "minecraft:block/sculk_shrieker"
+      },
+      "when": {
+        "AND": [
+          {
+            "can_summon": "false"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/sculk_shrieker_can_summon"
+      },
+      "when": {
+        "AND": [
+          {
+            "can_summon": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 0
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 90
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 180
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 270
+        }
+      ],
+      "when": {
+        "AND": []
+      }
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "minecraft:block/packed_mud"
+  "variants": {
+    "": {
+      "model": "minecraft:block/packed_mud"
+    }
   }
 }

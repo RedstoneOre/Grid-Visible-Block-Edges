@@ -1,0 +1,55 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "minecraft:block/nether_portal_ns"
+      },
+      "when": {
+        "AND": [
+          {
+            "axis": "x"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/nether_portal_ew"
+      },
+      "when": {
+        "AND": [
+          {
+            "axis": "z"
+          }
+        ]
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 0
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 90
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 180
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 270
+        }
+      ],
+      "when": {
+        "AND": []
+      }
+    }
+  ]
+}

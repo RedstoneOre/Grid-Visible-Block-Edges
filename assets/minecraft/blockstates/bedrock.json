@@ -1,0 +1,52 @@
+{
+  "multipart": [
+    {
+      "apply": [
+        {
+          "model": "minecraft:block/bedrock"
+        },
+        {
+          "model": "minecraft:block/bedrock_mirrored"
+        },
+        {
+          "model": "minecraft:block/bedrock",
+          "y": 180
+        },
+        {
+          "model": "minecraft:block/bedrock_mirrored",
+          "y": 180
+        }
+      ],
+      "when": {
+        "AND": []
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 0
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 90
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 180
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 270
+        }
+      ],
+      "when": {
+        "AND": []
+      }
+    }
+  ]
+}

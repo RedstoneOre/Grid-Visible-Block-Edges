@@ -1,0 +1,211 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "minecraft:block/trial_spawner_active"
+      },
+      "when": {
+        "AND": [
+          {
+            "ominous": "false"
+          },
+          {
+            "trial_spawner_state": "active"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/trial_spawner"
+      },
+      "when": {
+        "AND": [
+          {
+            "ominous": "false"
+          },
+          {
+            "trial_spawner_state": "cooldown"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/trial_spawner_ejecting_reward"
+      },
+      "when": {
+        "AND": [
+          {
+            "ominous": "false"
+          },
+          {
+            "trial_spawner_state": "ejecting_reward"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/trial_spawner"
+      },
+      "when": {
+        "AND": [
+          {
+            "ominous": "false"
+          },
+          {
+            "trial_spawner_state": "inactive"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/trial_spawner_active"
+      },
+      "when": {
+        "AND": [
+          {
+            "ominous": "false"
+          },
+          {
+            "trial_spawner_state": "waiting_for_players"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/trial_spawner_active"
+      },
+      "when": {
+        "AND": [
+          {
+            "ominous": "false"
+          },
+          {
+            "trial_spawner_state": "waiting_for_reward_ejection"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/trial_spawner_active_ominous"
+      },
+      "when": {
+        "AND": [
+          {
+            "ominous": "true"
+          },
+          {
+            "trial_spawner_state": "active"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/trial_spawner_inactive_ominous"
+      },
+      "when": {
+        "AND": [
+          {
+            "ominous": "true"
+          },
+          {
+            "trial_spawner_state": "cooldown"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/trial_spawner_ejecting_reward_ominous"
+      },
+      "when": {
+        "AND": [
+          {
+            "ominous": "true"
+          },
+          {
+            "trial_spawner_state": "ejecting_reward"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/trial_spawner_inactive_ominous"
+      },
+      "when": {
+        "AND": [
+          {
+            "ominous": "true"
+          },
+          {
+            "trial_spawner_state": "inactive"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/trial_spawner_active_ominous"
+      },
+      "when": {
+        "AND": [
+          {
+            "ominous": "true"
+          },
+          {
+            "trial_spawner_state": "waiting_for_players"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/trial_spawner_active_ominous"
+      },
+      "when": {
+        "AND": [
+          {
+            "ominous": "true"
+          },
+          {
+            "trial_spawner_state": "waiting_for_reward_ejection"
+          }
+        ]
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 0
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 90
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 180
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 270
+        }
+      ],
+      "when": {
+        "AND": []
+      }
+    }
+  ]
+}

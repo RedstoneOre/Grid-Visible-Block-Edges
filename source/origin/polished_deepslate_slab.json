@@ -1,8 +1,13 @@
 {
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "bottom": "minecraft:block/polished_deepslate",
-    "side": "minecraft:block/polished_deepslate",
-    "top": "minecraft:block/polished_deepslate"
+  "variants": {
+    "type=bottom": {
+      "model": "minecraft:block/polished_deepslate_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/polished_deepslate"
+    },
+    "type=top": {
+      "model": "minecraft:block/polished_deepslate_slab_top"
+    }
   }
 }

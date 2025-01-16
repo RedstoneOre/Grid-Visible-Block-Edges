@@ -1,8 +1,13 @@
 {
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "bottom": "minecraft:block/mud_bricks",
-    "side": "minecraft:block/mud_bricks",
-    "top": "minecraft:block/mud_bricks"
+  "variants": {
+    "type=bottom": {
+      "model": "minecraft:block/mud_brick_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/mud_bricks"
+    },
+    "type=top": {
+      "model": "minecraft:block/mud_brick_slab_top"
+    }
   }
 }

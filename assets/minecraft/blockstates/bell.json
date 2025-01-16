@@ -1,0 +1,283 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "minecraft:block/bell_ceiling",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "attachment": "ceiling"
+          },
+          {
+            "facing": "east"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/bell_ceiling"
+      },
+      "when": {
+        "AND": [
+          {
+            "attachment": "ceiling"
+          },
+          {
+            "facing": "north"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/bell_ceiling",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "attachment": "ceiling"
+          },
+          {
+            "facing": "south"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/bell_ceiling",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "attachment": "ceiling"
+          },
+          {
+            "facing": "west"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/bell_between_walls"
+      },
+      "when": {
+        "AND": [
+          {
+            "attachment": "double_wall"
+          },
+          {
+            "facing": "east"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/bell_between_walls",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "attachment": "double_wall"
+          },
+          {
+            "facing": "north"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/bell_between_walls",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "attachment": "double_wall"
+          },
+          {
+            "facing": "south"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/bell_between_walls",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "attachment": "double_wall"
+          },
+          {
+            "facing": "west"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/bell_floor",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "attachment": "floor"
+          },
+          {
+            "facing": "east"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/bell_floor"
+      },
+      "when": {
+        "AND": [
+          {
+            "attachment": "floor"
+          },
+          {
+            "facing": "north"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/bell_floor",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "attachment": "floor"
+          },
+          {
+            "facing": "south"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/bell_floor",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "attachment": "floor"
+          },
+          {
+            "facing": "west"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/bell_wall"
+      },
+      "when": {
+        "AND": [
+          {
+            "attachment": "single_wall"
+          },
+          {
+            "facing": "east"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/bell_wall",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "attachment": "single_wall"
+          },
+          {
+            "facing": "north"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/bell_wall",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "attachment": "single_wall"
+          },
+          {
+            "facing": "south"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/bell_wall",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "attachment": "single_wall"
+          },
+          {
+            "facing": "west"
+          }
+        ]
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 0
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 90
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 180
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 270
+        }
+      ],
+      "when": {
+        "AND": []
+      }
+    }
+  ]
+}

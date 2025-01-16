@@ -1,8 +1,13 @@
 {
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "bottom": "minecraft:block/birch_planks",
-    "side": "minecraft:block/birch_planks",
-    "top": "minecraft:block/birch_planks"
+  "variants": {
+    "type=bottom": {
+      "model": "minecraft:block/birch_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/birch_planks"
+    },
+    "type=top": {
+      "model": "minecraft:block/birch_slab_top"
+    }
   }
 }

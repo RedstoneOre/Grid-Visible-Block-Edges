@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/flower_pot_cross",
-  "textures": {
-    "plant": "minecraft:block/azure_bluet"
+  "variants": {
+    "": {
+      "model": "minecraft:block/potted_azure_bluet"
+    }
   }
 }

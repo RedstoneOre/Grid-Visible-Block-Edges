@@ -1,8 +1,6 @@
 {
-    "parent": "minecraft:block/template_item_frame",
-    "textures": {
-        "particle": "block/birch_planks",
-        "wood": "block/birch_planks",
-        "back": "block/glow_item_frame"
+    "variants": {
+        "map=false": { "model": "block/glow_item_frame" },
+        "map=true":  { "model": "block/glow_item_frame_map" }
     }
 }

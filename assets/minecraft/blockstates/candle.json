@@ -1,0 +1,151 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "minecraft:block/candle_one_candle"
+      },
+      "when": {
+        "AND": [
+          {
+            "candles": "1"
+          },
+          {
+            "lit": "false"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/candle_one_candle_lit"
+      },
+      "when": {
+        "AND": [
+          {
+            "candles": "1"
+          },
+          {
+            "lit": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/candle_two_candles"
+      },
+      "when": {
+        "AND": [
+          {
+            "candles": "2"
+          },
+          {
+            "lit": "false"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/candle_two_candles_lit"
+      },
+      "when": {
+        "AND": [
+          {
+            "candles": "2"
+          },
+          {
+            "lit": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/candle_three_candles"
+      },
+      "when": {
+        "AND": [
+          {
+            "candles": "3"
+          },
+          {
+            "lit": "false"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/candle_three_candles_lit"
+      },
+      "when": {
+        "AND": [
+          {
+            "candles": "3"
+          },
+          {
+            "lit": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/candle_four_candles"
+      },
+      "when": {
+        "AND": [
+          {
+            "candles": "4"
+          },
+          {
+            "lit": "false"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/candle_four_candles_lit"
+      },
+      "when": {
+        "AND": [
+          {
+            "candles": "4"
+          },
+          {
+            "lit": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 0
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 90
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 180
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 270
+        }
+      ],
+      "when": {
+        "AND": []
+      }
+    }
+  ]
+}

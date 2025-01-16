@@ -1,0 +1,91 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "minecraft:block/respawn_anchor_0"
+      },
+      "when": {
+        "AND": [
+          {
+            "charges": "0"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/respawn_anchor_1"
+      },
+      "when": {
+        "AND": [
+          {
+            "charges": "1"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/respawn_anchor_2"
+      },
+      "when": {
+        "AND": [
+          {
+            "charges": "2"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/respawn_anchor_3"
+      },
+      "when": {
+        "AND": [
+          {
+            "charges": "3"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/respawn_anchor_4"
+      },
+      "when": {
+        "AND": [
+          {
+            "charges": "4"
+          }
+        ]
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 0
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 90
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 180
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 270
+        }
+      ],
+      "when": {
+        "AND": []
+      }
+    }
+  ]
+}

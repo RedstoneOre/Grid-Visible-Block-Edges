@@ -1,12 +1,57 @@
 {
-  "parent": "minecraft:block/cube_directional",
-  "textures": {
-    "down": "minecraft:block/jigsaw_side",
-    "east": "minecraft:block/jigsaw_side",
-    "north": "minecraft:block/jigsaw_top",
-    "particle": "minecraft:block/jigsaw_top",
-    "south": "minecraft:block/jigsaw_bottom",
-    "up": "minecraft:block/jigsaw_lock",
-    "west": "minecraft:block/jigsaw_side"
+  "variants": {
+    "orientation=down_east": {
+      "model": "minecraft:block/jigsaw",
+      "x": 90,
+      "y": 90
+    },
+    "orientation=down_north": {
+      "model": "minecraft:block/jigsaw",
+      "x": 90
+    },
+    "orientation=down_south": {
+      "model": "minecraft:block/jigsaw",
+      "x": 90,
+      "y": 180
+    },
+    "orientation=down_west": {
+      "model": "minecraft:block/jigsaw",
+      "x": 90,
+      "y": 270
+    },
+    "orientation=east_up": {
+      "model": "minecraft:block/jigsaw",
+      "y": 90
+    },
+    "orientation=north_up": {
+      "model": "minecraft:block/jigsaw"
+    },
+    "orientation=south_up": {
+      "model": "minecraft:block/jigsaw",
+      "y": 180
+    },
+    "orientation=up_east": {
+      "model": "minecraft:block/jigsaw",
+      "x": 270,
+      "y": 270
+    },
+    "orientation=up_north": {
+      "model": "minecraft:block/jigsaw",
+      "x": 270,
+      "y": 180
+    },
+    "orientation=up_south": {
+      "model": "minecraft:block/jigsaw",
+      "x": 270
+    },
+    "orientation=up_west": {
+      "model": "minecraft:block/jigsaw",
+      "x": 270,
+      "y": 90
+    },
+    "orientation=west_up": {
+      "model": "minecraft:block/jigsaw",
+      "y": 270
+    }
   }
 }

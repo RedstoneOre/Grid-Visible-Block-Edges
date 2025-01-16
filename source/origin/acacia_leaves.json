@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/leaves",
-  "textures": {
-    "all": "minecraft:block/acacia_leaves"
+  "variants": {
+    "": {
+      "model": "minecraft:block/acacia_leaves"
+    }
   }
 }

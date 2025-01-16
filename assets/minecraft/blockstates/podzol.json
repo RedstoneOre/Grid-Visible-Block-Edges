@@ -1,0 +1,69 @@
+{
+  "multipart": [
+    {
+      "apply": [
+        {
+          "model": "minecraft:block/podzol"
+        },
+        {
+          "model": "minecraft:block/podzol",
+          "y": 90
+        },
+        {
+          "model": "minecraft:block/podzol",
+          "y": 180
+        },
+        {
+          "model": "minecraft:block/podzol",
+          "y": 270
+        }
+      ],
+      "when": {
+        "AND": [
+          {
+            "snowy": "false"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/grass_block_snow"
+      },
+      "when": {
+        "AND": [
+          {
+            "snowy": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 0
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 90
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 180
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 270
+        }
+      ],
+      "when": {
+        "AND": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "minecraft:block/command_block",
+        "x": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "conditional": "false"
+          },
+          {
+            "facing": "down"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/command_block",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "conditional": "false"
+          },
+          {
+            "facing": "east"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/command_block"
+      },
+      "when": {
+        "AND": [
+          {
+            "conditional": "false"
+          },
+          {
+            "facing": "north"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/command_block",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "conditional": "false"
+          },
+          {
+            "facing": "south"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/command_block",
+        "x": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "conditional": "false"
+          },
+          {
+            "facing": "up"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/command_block",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "conditional": "false"
+          },
+          {
+            "facing": "west"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/command_block_conditional",
+        "x": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "conditional": "true"
+          },
+          {
+            "facing": "down"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/command_block_conditional",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "conditional": "true"
+          },
+          {
+            "facing": "east"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/command_block_conditional"
+      },
+      "when": {
+        "AND": [
+          {
+            "conditional": "true"
+          },
+          {
+            "facing": "north"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/command_block_conditional",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "conditional": "true"
+          },
+          {
+            "facing": "south"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/command_block_conditional",
+        "x": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "conditional": "true"
+          },
+          {
+            "facing": "up"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/command_block_conditional",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "conditional": "true"
+          },
+          {
+            "facing": "west"
+          }
+        ]
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 0
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 90
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 180
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 270
+        }
+      ],
+      "when": {
+        "AND": []
+      }
+    }
+  ]
+}

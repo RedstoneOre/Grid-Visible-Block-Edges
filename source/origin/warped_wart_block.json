@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "minecraft:block/warped_wart_block"
+  "variants": {
+    "": {
+      "model": "minecraft:block/warped_wart_block"
+    }
   }
 }

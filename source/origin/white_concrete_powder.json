@@ -1,6 +1,21 @@
 {
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "minecraft:block/white_concrete_powder"
+  "variants": {
+    "": [
+      {
+        "model": "minecraft:block/white_concrete_powder"
+      },
+      {
+        "model": "minecraft:block/white_concrete_powder",
+        "y": 90
+      },
+      {
+        "model": "minecraft:block/white_concrete_powder",
+        "y": 180
+      },
+      {
+        "model": "minecraft:block/white_concrete_powder",
+        "y": 270
+      }
+    ]
   }
 }

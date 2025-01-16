@@ -1,0 +1,220 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "minecraft:block/calibrated_sculk_sensor_active",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "east"
+          },
+          {
+            "sculk_sensor_phase": "active"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/calibrated_sculk_sensor_active",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "east"
+          },
+          {
+            "sculk_sensor_phase": "cooldown"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/calibrated_sculk_sensor_inactive",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "east"
+          },
+          {
+            "sculk_sensor_phase": "inactive"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/calibrated_sculk_sensor_active"
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "north"
+          },
+          {
+            "sculk_sensor_phase": "active"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/calibrated_sculk_sensor_active"
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "north"
+          },
+          {
+            "sculk_sensor_phase": "cooldown"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/calibrated_sculk_sensor_inactive"
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "north"
+          },
+          {
+            "sculk_sensor_phase": "inactive"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/calibrated_sculk_sensor_active",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "south"
+          },
+          {
+            "sculk_sensor_phase": "active"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/calibrated_sculk_sensor_active",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "south"
+          },
+          {
+            "sculk_sensor_phase": "cooldown"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/calibrated_sculk_sensor_inactive",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "south"
+          },
+          {
+            "sculk_sensor_phase": "inactive"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/calibrated_sculk_sensor_active",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "west"
+          },
+          {
+            "sculk_sensor_phase": "active"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/calibrated_sculk_sensor_active",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "west"
+          },
+          {
+            "sculk_sensor_phase": "cooldown"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/calibrated_sculk_sensor_inactive",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "west"
+          },
+          {
+            "sculk_sensor_phase": "inactive"
+          }
+        ]
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 0
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 90
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 180
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 270
+        }
+      ],
+      "when": {
+        "AND": []
+      }
+    }
+  ]
+}

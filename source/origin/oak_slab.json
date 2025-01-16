@@ -1,8 +1,13 @@
 {
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "bottom": "minecraft:block/oak_planks",
-    "side": "minecraft:block/oak_planks",
-    "top": "minecraft:block/oak_planks"
+  "variants": {
+    "type=bottom": {
+      "model": "minecraft:block/oak_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/oak_planks"
+    },
+    "type=top": {
+      "model": "minecraft:block/oak_slab_top"
+    }
   }
 }

@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "minecraft:block/cobbled_deepslate"
+  "variants": {
+    "": {
+      "model": "minecraft:block/cobbled_deepslate"
+    }
   }
 }

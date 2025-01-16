@@ -1,7 +1,16 @@
 {
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "minecraft:block/basalt_top",
-    "side": "minecraft:block/basalt_side"
+  "variants": {
+    "axis=x": {
+      "model": "minecraft:block/basalt",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "minecraft:block/basalt"
+    },
+    "axis=z": {
+      "model": "minecraft:block/basalt",
+      "x": 90
+    }
   }
 }

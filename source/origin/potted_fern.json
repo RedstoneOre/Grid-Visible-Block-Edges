@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/tinted_flower_pot_cross",
-  "textures": {
-    "plant": "minecraft:block/fern"
+  "variants": {
+    "": {
+      "model": "minecraft:block/potted_fern"
+    }
   }
 }

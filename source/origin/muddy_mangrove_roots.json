@@ -1,7 +1,16 @@
 {
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "minecraft:block/muddy_mangrove_roots_top",
-    "side": "minecraft:block/muddy_mangrove_roots_side"
+  "variants": {
+    "axis=x": {
+      "model": "minecraft:block/muddy_mangrove_roots",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "minecraft:block/muddy_mangrove_roots"
+    },
+    "axis=z": {
+      "model": "minecraft:block/muddy_mangrove_roots",
+      "x": 90
+    }
   }
 }

@@ -1,6 +1,10 @@
 {
-  "parent": "minecraft:block/pressure_plate_up",
-  "textures": {
-    "texture": "minecraft:block/polished_blackstone"
+  "variants": {
+    "powered=false": {
+      "model": "minecraft:block/polished_blackstone_pressure_plate"
+    },
+    "powered=true": {
+      "model": "minecraft:block/polished_blackstone_pressure_plate_down"
+    }
   }
 }

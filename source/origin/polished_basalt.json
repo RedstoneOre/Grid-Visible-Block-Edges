@@ -1,7 +1,16 @@
 {
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "minecraft:block/polished_basalt_top",
-    "side": "minecraft:block/polished_basalt_side"
+  "variants": {
+    "axis=x": {
+      "model": "minecraft:block/polished_basalt",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "minecraft:block/polished_basalt"
+    },
+    "axis=z": {
+      "model": "minecraft:block/polished_basalt",
+      "x": 90
+    }
   }
 }

@@ -1,0 +1,116 @@
+{
+  "multipart": [
+    {
+      "apply": [
+        {
+          "model": "minecraft:block/deepslate",
+          "x": 90,
+          "y": 90
+        },
+        {
+          "model": "minecraft:block/deepslate_mirrored",
+          "x": 90,
+          "y": 90
+        },
+        {
+          "model": "minecraft:block/deepslate",
+          "x": 90,
+          "y": 90
+        },
+        {
+          "model": "minecraft:block/deepslate_mirrored",
+          "x": 90,
+          "y": 90
+        }
+      ],
+      "when": {
+        "AND": [
+          {
+            "axis": "x"
+          }
+        ]
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "minecraft:block/deepslate"
+        },
+        {
+          "model": "minecraft:block/deepslate_mirrored"
+        },
+        {
+          "model": "minecraft:block/deepslate",
+          "y": 180
+        },
+        {
+          "model": "minecraft:block/deepslate_mirrored",
+          "y": 180
+        }
+      ],
+      "when": {
+        "AND": [
+          {
+            "axis": "y"
+          }
+        ]
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "minecraft:block/deepslate",
+          "x": 90
+        },
+        {
+          "model": "minecraft:block/deepslate_mirrored",
+          "x": 90
+        },
+        {
+          "model": "minecraft:block/deepslate",
+          "x": 90,
+          "y": 180
+        },
+        {
+          "model": "minecraft:block/deepslate_mirrored",
+          "x": 90,
+          "y": 180
+        }
+      ],
+      "when": {
+        "AND": [
+          {
+            "axis": "z"
+          }
+        ]
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 0
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 90
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 180
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 270
+        }
+      ],
+      "when": {
+        "AND": []
+      }
+    }
+  ]
+}

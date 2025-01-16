@@ -1,56 +1,64 @@
 {
-    "ambientocclusion": false,
-    "textures": {
-        "particle": "block/comparator",
-        "slab": "block/smooth_stone",
-        "top": "block/comparator",
-        "unlit": "block/redstone_torch_off",
-        "lit": "block/redstone_torch"
+  "variants": {
+    "facing=east,mode=compare,powered=false": {
+      "model": "minecraft:block/comparator",
+      "y": 270
     },
-    "elements": [
-        {   "from": [ 0, 0, 0 ],
-            "to": [ 16, 2, 16 ],
-            "faces": {
-                "down":  { "uv": [ 0,  0, 16, 16 ], "texture": "#slab", "cullface": "down" },
-                "up":    { "uv": [ 0,  0, 16, 16 ], "texture": "#top" },
-                "north": { "uv": [ 0, 14, 16, 16 ], "texture": "#slab", "cullface": "north" },
-                "south": { "uv": [ 0, 14, 16, 16 ], "texture": "#slab", "cullface": "south" },
-                "west":  { "uv": [ 0, 14, 16, 16 ], "texture": "#slab", "cullface": "west" },
-                "east":  { "uv": [ 0, 14, 16, 16 ], "texture": "#slab", "cullface": "east" }
-            }
-        },
-        {   "from": [ 4, 2, 11 ],
-            "to": [ 6, 7, 13 ],
-            "faces": {
-                "down":  { "uv": [ 7, 13, 9, 15 ], "texture": "#unlit" },
-                "up":    { "uv": [ 7,  6, 9,  8 ], "texture": "#unlit" },
-                "north": { "uv": [ 7,  6, 9, 11 ], "texture": "#unlit" },
-                "south": { "uv": [ 7,  6, 9, 11 ], "texture": "#unlit" },
-                "west":  { "uv": [ 7,  6, 9, 11 ], "texture": "#unlit" },
-                "east":  { "uv": [ 7,  6, 9, 11 ], "texture": "#unlit" }
-            }
-        },
-        {   "from": [ 10, 2, 11 ],
-            "to": [ 12, 7, 13 ],
-            "faces": {
-                "down":  { "uv": [ 7, 13, 9, 15 ], "texture": "#unlit" },
-                "up":    { "uv": [ 7,  6, 9,  8 ], "texture": "#unlit" },
-                "north": { "uv": [ 7,  6, 9, 11 ], "texture": "#unlit" },
-                "south": { "uv": [ 7,  6, 9, 11 ], "texture": "#unlit" },
-                "west":  { "uv": [ 7,  6, 9, 11 ], "texture": "#unlit" },
-                "east":  { "uv": [ 7,  6, 9, 11 ], "texture": "#unlit" }
-            }
-        },
-        {   "from": [ 7, 2, 2 ],
-            "to": [ 9, 4, 4 ],
-            "faces": {
-                "down":  { "uv": [ 7, 13, 9, 15 ], "texture": "#unlit" },
-                "up":    { "uv": [ 7,  6, 9,  8 ], "texture": "#unlit" },
-                "north": { "uv": [ 7,  6, 9,  8 ], "texture": "#unlit" },
-                "south": { "uv": [ 7,  6, 9,  8 ], "texture": "#unlit" },
-                "west":  { "uv": [ 7,  6, 9,  8 ], "texture": "#unlit" },
-                "east":  { "uv": [ 7,  6, 9,  8 ], "texture": "#unlit" }
-            }
-        }
-    ]
+    "facing=east,mode=compare,powered=true": {
+      "model": "minecraft:block/comparator_on",
+      "y": 270
+    },
+    "facing=east,mode=subtract,powered=false": {
+      "model": "minecraft:block/comparator_subtract",
+      "y": 270
+    },
+    "facing=east,mode=subtract,powered=true": {
+      "model": "minecraft:block/comparator_on_subtract",
+      "y": 270
+    },
+    "facing=north,mode=compare,powered=false": {
+      "model": "minecraft:block/comparator",
+      "y": 180
+    },
+    "facing=north,mode=compare,powered=true": {
+      "model": "minecraft:block/comparator_on",
+      "y": 180
+    },
+    "facing=north,mode=subtract,powered=false": {
+      "model": "minecraft:block/comparator_subtract",
+      "y": 180
+    },
+    "facing=north,mode=subtract,powered=true": {
+      "model": "minecraft:block/comparator_on_subtract",
+      "y": 180
+    },
+    "facing=south,mode=compare,powered=false": {
+      "model": "minecraft:block/comparator"
+    },
+    "facing=south,mode=compare,powered=true": {
+      "model": "minecraft:block/comparator_on"
+    },
+    "facing=south,mode=subtract,powered=false": {
+      "model": "minecraft:block/comparator_subtract"
+    },
+    "facing=south,mode=subtract,powered=true": {
+      "model": "minecraft:block/comparator_on_subtract"
+    },
+    "facing=west,mode=compare,powered=false": {
+      "model": "minecraft:block/comparator",
+      "y": 90
+    },
+    "facing=west,mode=compare,powered=true": {
+      "model": "minecraft:block/comparator_on",
+      "y": 90
+    },
+    "facing=west,mode=subtract,powered=false": {
+      "model": "minecraft:block/comparator_subtract",
+      "y": 90
+    },
+    "facing=west,mode=subtract,powered=true": {
+      "model": "minecraft:block/comparator_on_subtract",
+      "y": 90
+    }
+  }
 }

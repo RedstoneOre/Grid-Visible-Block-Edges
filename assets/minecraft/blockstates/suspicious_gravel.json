@@ -1,0 +1,79 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "minecraft:block/suspicious_gravel_0"
+      },
+      "when": {
+        "AND": [
+          {
+            "dusted": "0"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/suspicious_gravel_1"
+      },
+      "when": {
+        "AND": [
+          {
+            "dusted": "1"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/suspicious_gravel_2"
+      },
+      "when": {
+        "AND": [
+          {
+            "dusted": "2"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/suspicious_gravel_3"
+      },
+      "when": {
+        "AND": [
+          {
+            "dusted": "3"
+          }
+        ]
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 0
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 90
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 180
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 270
+        }
+      ],
+      "when": {
+        "AND": []
+      }
+    }
+  ]
+}

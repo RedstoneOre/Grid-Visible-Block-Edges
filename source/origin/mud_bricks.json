@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "minecraft:block/mud_bricks"
+  "variants": {
+    "": {
+      "model": "minecraft:block/mud_bricks_north_west_mirrored"
+    }
   }
 }

@@ -1,5 +1,7 @@
 {
-  "textures": {
-    "particle": "minecraft:block/brown_shulker_box"
+  "variants": {
+    "": {
+      "model": "minecraft:block/brown_shulker_box"
+    }
   }
 }

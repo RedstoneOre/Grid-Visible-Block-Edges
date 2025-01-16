@@ -1,0 +1,79 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "minecraft:block/frosted_ice_0"
+      },
+      "when": {
+        "AND": [
+          {
+            "age": "0"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/frosted_ice_1"
+      },
+      "when": {
+        "AND": [
+          {
+            "age": "1"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/frosted_ice_2"
+      },
+      "when": {
+        "AND": [
+          {
+            "age": "2"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/frosted_ice_3"
+      },
+      "when": {
+        "AND": [
+          {
+            "age": "3"
+          }
+        ]
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 0
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 90
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 180
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 270
+        }
+      ],
+      "when": {
+        "AND": []
+      }
+    }
+  ]
+}

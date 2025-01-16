@@ -1,0 +1,483 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "minecraft:block/piston_head",
+        "x": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "down"
+          },
+          {
+            "short": "false"
+          },
+          {
+            "type": "normal"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/piston_head_sticky",
+        "x": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "down"
+          },
+          {
+            "short": "false"
+          },
+          {
+            "type": "sticky"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/piston_head_short",
+        "x": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "down"
+          },
+          {
+            "short": "true"
+          },
+          {
+            "type": "normal"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/piston_head_short_sticky",
+        "x": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "down"
+          },
+          {
+            "short": "true"
+          },
+          {
+            "type": "sticky"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/piston_head",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "east"
+          },
+          {
+            "short": "false"
+          },
+          {
+            "type": "normal"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/piston_head_sticky",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "east"
+          },
+          {
+            "short": "false"
+          },
+          {
+            "type": "sticky"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/piston_head_short",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "east"
+          },
+          {
+            "short": "true"
+          },
+          {
+            "type": "normal"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/piston_head_short_sticky",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "east"
+          },
+          {
+            "short": "true"
+          },
+          {
+            "type": "sticky"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/piston_head"
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "north"
+          },
+          {
+            "short": "false"
+          },
+          {
+            "type": "normal"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/piston_head_sticky"
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "north"
+          },
+          {
+            "short": "false"
+          },
+          {
+            "type": "sticky"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/piston_head_short"
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "north"
+          },
+          {
+            "short": "true"
+          },
+          {
+            "type": "normal"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/piston_head_short_sticky"
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "north"
+          },
+          {
+            "short": "true"
+          },
+          {
+            "type": "sticky"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/piston_head",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "south"
+          },
+          {
+            "short": "false"
+          },
+          {
+            "type": "normal"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/piston_head_sticky",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "south"
+          },
+          {
+            "short": "false"
+          },
+          {
+            "type": "sticky"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/piston_head_short",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "south"
+          },
+          {
+            "short": "true"
+          },
+          {
+            "type": "normal"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/piston_head_short_sticky",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "south"
+          },
+          {
+            "short": "true"
+          },
+          {
+            "type": "sticky"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/piston_head",
+        "x": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "up"
+          },
+          {
+            "short": "false"
+          },
+          {
+            "type": "normal"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/piston_head_sticky",
+        "x": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "up"
+          },
+          {
+            "short": "false"
+          },
+          {
+            "type": "sticky"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/piston_head_short",
+        "x": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "up"
+          },
+          {
+            "short": "true"
+          },
+          {
+            "type": "normal"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/piston_head_short_sticky",
+        "x": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "up"
+          },
+          {
+            "short": "true"
+          },
+          {
+            "type": "sticky"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/piston_head",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "west"
+          },
+          {
+            "short": "false"
+          },
+          {
+            "type": "normal"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/piston_head_sticky",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "west"
+          },
+          {
+            "short": "false"
+          },
+          {
+            "type": "sticky"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/piston_head_short",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "west"
+          },
+          {
+            "short": "true"
+          },
+          {
+            "type": "normal"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/piston_head_short_sticky",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "west"
+          },
+          {
+            "short": "true"
+          },
+          {
+            "type": "sticky"
+          }
+        ]
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 0
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 90
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 180
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 270
+        }
+      ],
+      "when": {
+        "AND": []
+      }
+    }
+  ]
+}

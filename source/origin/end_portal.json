@@ -1,5 +1,7 @@
 {
-  "textures": {
-    "particle": "minecraft:block/obsidian"
+  "variants": {
+    "": {
+      "model": "minecraft:block/end_portal"
+    }
   }
 }

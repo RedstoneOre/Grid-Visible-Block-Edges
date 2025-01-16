@@ -1,0 +1,127 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "minecraft:block/snow_height2"
+      },
+      "when": {
+        "AND": [
+          {
+            "layers": "1"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/snow_height4"
+      },
+      "when": {
+        "AND": [
+          {
+            "layers": "2"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/snow_height6"
+      },
+      "when": {
+        "AND": [
+          {
+            "layers": "3"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/snow_height8"
+      },
+      "when": {
+        "AND": [
+          {
+            "layers": "4"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/snow_height10"
+      },
+      "when": {
+        "AND": [
+          {
+            "layers": "5"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/snow_height12"
+      },
+      "when": {
+        "AND": [
+          {
+            "layers": "6"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/snow_height14"
+      },
+      "when": {
+        "AND": [
+          {
+            "layers": "7"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/snow_block"
+      },
+      "when": {
+        "AND": [
+          {
+            "layers": "8"
+          }
+        ]
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 0
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 90
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 180
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 270
+        }
+      ],
+      "when": {
+        "AND": []
+      }
+    }
+  ]
+}

@@ -1,8 +1,13 @@
 {
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "bottom": "minecraft:block/acacia_planks",
-    "side": "minecraft:block/acacia_planks",
-    "top": "minecraft:block/acacia_planks"
+  "variants": {
+    "type=bottom": {
+      "model": "minecraft:block/acacia_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/acacia_planks"
+    },
+    "type=top": {
+      "model": "minecraft:block/acacia_slab_top"
+    }
   }
 }

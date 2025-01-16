@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/carpet",
-  "textures": {
-    "wool": "minecraft:block/moss_block"
+  "variants": {
+    "": {
+      "model": "minecraft:block/moss_carpet"
+    }
   }
 }

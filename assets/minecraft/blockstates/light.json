@@ -1,0 +1,223 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "minecraft:block/light_00"
+      },
+      "when": {
+        "AND": [
+          {
+            "level": "0"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/light_01"
+      },
+      "when": {
+        "AND": [
+          {
+            "level": "1"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/light_10"
+      },
+      "when": {
+        "AND": [
+          {
+            "level": "10"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/light_11"
+      },
+      "when": {
+        "AND": [
+          {
+            "level": "11"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/light_12"
+      },
+      "when": {
+        "AND": [
+          {
+            "level": "12"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/light_13"
+      },
+      "when": {
+        "AND": [
+          {
+            "level": "13"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/light_14"
+      },
+      "when": {
+        "AND": [
+          {
+            "level": "14"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/light_15"
+      },
+      "when": {
+        "AND": [
+          {
+            "level": "15"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/light_02"
+      },
+      "when": {
+        "AND": [
+          {
+            "level": "2"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/light_03"
+      },
+      "when": {
+        "AND": [
+          {
+            "level": "3"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/light_04"
+      },
+      "when": {
+        "AND": [
+          {
+            "level": "4"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/light_05"
+      },
+      "when": {
+        "AND": [
+          {
+            "level": "5"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/light_06"
+      },
+      "when": {
+        "AND": [
+          {
+            "level": "6"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/light_07"
+      },
+      "when": {
+        "AND": [
+          {
+            "level": "7"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/light_08"
+      },
+      "when": {
+        "AND": [
+          {
+            "level": "8"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/light_09"
+      },
+      "when": {
+        "AND": [
+          {
+            "level": "9"
+          }
+        ]
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 0
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 90
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 180
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 270
+        }
+      ],
+      "when": {
+        "AND": []
+      }
+    }
+  ]
+}

@@ -1,8 +1,13 @@
 {
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "bottom": "minecraft:block/polished_blackstone",
-    "side": "minecraft:block/polished_blackstone",
-    "top": "minecraft:block/polished_blackstone"
+  "variants": {
+    "type=bottom": {
+      "model": "minecraft:block/polished_blackstone_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/polished_blackstone"
+    },
+    "type=top": {
+      "model": "minecraft:block/polished_blackstone_slab_top"
+    }
   }
 }

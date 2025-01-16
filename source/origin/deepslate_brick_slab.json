@@ -1,8 +1,13 @@
 {
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "bottom": "minecraft:block/deepslate_bricks",
-    "side": "minecraft:block/deepslate_bricks",
-    "top": "minecraft:block/deepslate_bricks"
+  "variants": {
+    "type=bottom": {
+      "model": "minecraft:block/deepslate_brick_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/deepslate_bricks"
+    },
+    "type=top": {
+      "model": "minecraft:block/deepslate_brick_slab_top"
+    }
   }
 }

@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/cross",
-  "textures": {
-    "cross": "minecraft:block/hanging_roots"
+  "variants": {
+    "": {
+      "model": "minecraft:block/hanging_roots"
+    }
   }
 }

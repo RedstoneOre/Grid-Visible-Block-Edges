@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/cross",
-  "textures": {
-    "cross": "minecraft:block/azure_bluet"
+  "variants": {
+    "": {
+      "model": "minecraft:block/azure_bluet"
+    }
   }
 }

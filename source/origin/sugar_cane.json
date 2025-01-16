@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/tinted_cross",
-  "textures": {
-    "cross": "minecraft:block/sugar_cane"
+  "variants": {
+    "": {
+      "model": "minecraft:block/sugar_cane"
+    }
   }
 }

@@ -1,7 +1,16 @@
 {
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "minecraft:block/stripped_spruce_log",
-    "side": "minecraft:block/stripped_spruce_log"
+  "variants": {
+    "axis=x": {
+      "model": "minecraft:block/stripped_spruce_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "minecraft:block/stripped_spruce_wood"
+    },
+    "axis=z": {
+      "model": "minecraft:block/stripped_spruce_wood",
+      "x": 90
+    }
   }
 }

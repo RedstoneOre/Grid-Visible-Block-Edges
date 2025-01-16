@@ -1,5 +1,7 @@
 {
-  "textures": {
-    "particle": "minecraft:block/piston_side"
+  "variants": {
+    "": {
+      "model": "minecraft:block/moving_piston"
+    }
   }
 }

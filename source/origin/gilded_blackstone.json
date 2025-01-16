@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "minecraft:block/gilded_blackstone"
+  "variants": {
+    "": {
+      "model": "minecraft:block/gilded_blackstone"
+    }
   }
 }

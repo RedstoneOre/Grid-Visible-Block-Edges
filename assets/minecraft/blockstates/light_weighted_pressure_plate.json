@@ -1,0 +1,223 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "minecraft:block/light_weighted_pressure_plate"
+      },
+      "when": {
+        "AND": [
+          {
+            "power": "0"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/light_weighted_pressure_plate_down"
+      },
+      "when": {
+        "AND": [
+          {
+            "power": "1"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/light_weighted_pressure_plate_down"
+      },
+      "when": {
+        "AND": [
+          {
+            "power": "10"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/light_weighted_pressure_plate_down"
+      },
+      "when": {
+        "AND": [
+          {
+            "power": "11"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/light_weighted_pressure_plate_down"
+      },
+      "when": {
+        "AND": [
+          {
+            "power": "12"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/light_weighted_pressure_plate_down"
+      },
+      "when": {
+        "AND": [
+          {
+            "power": "13"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/light_weighted_pressure_plate_down"
+      },
+      "when": {
+        "AND": [
+          {
+            "power": "14"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/light_weighted_pressure_plate_down"
+      },
+      "when": {
+        "AND": [
+          {
+            "power": "15"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/light_weighted_pressure_plate_down"
+      },
+      "when": {
+        "AND": [
+          {
+            "power": "2"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/light_weighted_pressure_plate_down"
+      },
+      "when": {
+        "AND": [
+          {
+            "power": "3"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/light_weighted_pressure_plate_down"
+      },
+      "when": {
+        "AND": [
+          {
+            "power": "4"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/light_weighted_pressure_plate_down"
+      },
+      "when": {
+        "AND": [
+          {
+            "power": "5"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/light_weighted_pressure_plate_down"
+      },
+      "when": {
+        "AND": [
+          {
+            "power": "6"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/light_weighted_pressure_plate_down"
+      },
+      "when": {
+        "AND": [
+          {
+            "power": "7"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/light_weighted_pressure_plate_down"
+      },
+      "when": {
+        "AND": [
+          {
+            "power": "8"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/light_weighted_pressure_plate_down"
+      },
+      "when": {
+        "AND": [
+          {
+            "power": "9"
+          }
+        ]
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 0
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 90
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 180
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 270
+        }
+      ],
+      "when": {
+        "AND": []
+      }
+    }
+  ]
+}

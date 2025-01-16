@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "minecraft:block/polished_tuff"
+  "variants": {
+    "": {
+      "model": "minecraft:block/polished_tuff"
+    }
   }
 }

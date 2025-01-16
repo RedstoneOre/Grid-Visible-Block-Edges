@@ -1,0 +1,221 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "minecraft:block/sticky_piston",
+        "x": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "extended": "false"
+          },
+          {
+            "facing": "down"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/sticky_piston",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "extended": "false"
+          },
+          {
+            "facing": "east"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/sticky_piston"
+      },
+      "when": {
+        "AND": [
+          {
+            "extended": "false"
+          },
+          {
+            "facing": "north"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/sticky_piston",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "extended": "false"
+          },
+          {
+            "facing": "south"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/sticky_piston",
+        "x": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "extended": "false"
+          },
+          {
+            "facing": "up"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/sticky_piston",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "extended": "false"
+          },
+          {
+            "facing": "west"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/piston_base",
+        "x": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "extended": "true"
+          },
+          {
+            "facing": "down"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/piston_base",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "extended": "true"
+          },
+          {
+            "facing": "east"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/piston_base"
+      },
+      "when": {
+        "AND": [
+          {
+            "extended": "true"
+          },
+          {
+            "facing": "north"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/piston_base",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "extended": "true"
+          },
+          {
+            "facing": "south"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/piston_base",
+        "x": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "extended": "true"
+          },
+          {
+            "facing": "up"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/piston_base",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "extended": "true"
+          },
+          {
+            "facing": "west"
+          }
+        ]
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 0
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 90
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 180
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 270
+        }
+      ],
+      "when": {
+        "AND": []
+      }
+    }
+  ]
+}

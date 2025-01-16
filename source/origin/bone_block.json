@@ -1,7 +1,16 @@
 {
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "minecraft:block/bone_block_top",
-    "side": "minecraft:block/bone_block_side"
+  "variants": {
+    "axis=x": {
+      "model": "minecraft:block/bone_block",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "minecraft:block/bone_block"
+    },
+    "axis=z": {
+      "model": "minecraft:block/bone_block",
+      "x": 90
+    }
   }
 }

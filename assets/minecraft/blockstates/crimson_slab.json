@@ -1,0 +1,67 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "minecraft:block/crimson_slab"
+      },
+      "when": {
+        "AND": [
+          {
+            "type": "bottom"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/crimson_planks"
+      },
+      "when": {
+        "AND": [
+          {
+            "type": "double"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/crimson_slab_top"
+      },
+      "when": {
+        "AND": [
+          {
+            "type": "top"
+          }
+        ]
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 0
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 90
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 180
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 270
+        }
+      ],
+      "when": {
+        "AND": []
+      }
+    }
+  ]
+}

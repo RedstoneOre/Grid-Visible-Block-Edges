@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/carpet",
-  "textures": {
-    "wool": "minecraft:block/yellow_wool"
+  "variants": {
+    "": {
+      "model": "minecraft:block/yellow_carpet"
+    }
   }
 }

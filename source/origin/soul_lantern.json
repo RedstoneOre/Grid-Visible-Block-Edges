@@ -1,6 +1,10 @@
 {
-  "parent": "minecraft:block/template_lantern",
-  "textures": {
-    "lantern": "minecraft:block/soul_lantern"
+  "variants": {
+    "hanging=false": {
+      "model": "minecraft:block/soul_lantern"
+    },
+    "hanging=true": {
+      "model": "minecraft:block/soul_lantern_hanging"
+    }
   }
 }

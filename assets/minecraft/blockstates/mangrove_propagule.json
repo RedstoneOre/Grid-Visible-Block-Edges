@@ -1,0 +1,181 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "minecraft:block/mangrove_propagule"
+      },
+      "when": {
+        "AND": [
+          {
+            "age": "0"
+          },
+          {
+            "hanging": "false"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mangrove_propagule_hanging_0"
+      },
+      "when": {
+        "AND": [
+          {
+            "age": "0"
+          },
+          {
+            "hanging": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mangrove_propagule"
+      },
+      "when": {
+        "AND": [
+          {
+            "age": "1"
+          },
+          {
+            "hanging": "false"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mangrove_propagule_hanging_1"
+      },
+      "when": {
+        "AND": [
+          {
+            "age": "1"
+          },
+          {
+            "hanging": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mangrove_propagule"
+      },
+      "when": {
+        "AND": [
+          {
+            "age": "2"
+          },
+          {
+            "hanging": "false"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mangrove_propagule_hanging_2"
+      },
+      "when": {
+        "AND": [
+          {
+            "age": "2"
+          },
+          {
+            "hanging": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mangrove_propagule"
+      },
+      "when": {
+        "AND": [
+          {
+            "age": "3"
+          },
+          {
+            "hanging": "false"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mangrove_propagule_hanging_3"
+      },
+      "when": {
+        "AND": [
+          {
+            "age": "3"
+          },
+          {
+            "hanging": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mangrove_propagule"
+      },
+      "when": {
+        "AND": [
+          {
+            "age": "4"
+          },
+          {
+            "hanging": "false"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mangrove_propagule_hanging_4"
+      },
+      "when": {
+        "AND": [
+          {
+            "age": "4"
+          },
+          {
+            "hanging": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 0
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 90
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 180
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 270
+        }
+      ],
+      "when": {
+        "AND": []
+      }
+    }
+  ]
+}

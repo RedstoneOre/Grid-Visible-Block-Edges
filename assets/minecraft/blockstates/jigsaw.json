@@ -1,0 +1,192 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "minecraft:block/jigsaw",
+        "x": 90,
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "orientation": "down_east"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/jigsaw",
+        "x": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "orientation": "down_north"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/jigsaw",
+        "x": 90,
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "orientation": "down_south"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/jigsaw",
+        "x": 90,
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "orientation": "down_west"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/jigsaw",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "orientation": "east_up"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/jigsaw"
+      },
+      "when": {
+        "AND": [
+          {
+            "orientation": "north_up"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/jigsaw",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "orientation": "south_up"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/jigsaw",
+        "x": 270,
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "orientation": "up_east"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/jigsaw",
+        "x": 270,
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "orientation": "up_north"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/jigsaw",
+        "x": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "orientation": "up_south"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/jigsaw",
+        "x": 270,
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "orientation": "up_west"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/jigsaw",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "orientation": "west_up"
+          }
+        ]
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 0
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 90
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 180
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 270
+        }
+      ],
+      "when": {
+        "AND": []
+      }
+    }
+  ]
+}

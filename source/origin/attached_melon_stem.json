@@ -1,7 +1,19 @@
 {
-  "parent": "minecraft:block/stem_fruit",
-  "textures": {
-    "stem": "minecraft:block/melon_stem",
-    "upperstem": "minecraft:block/attached_melon_stem"
+  "variants": {
+    "facing=east": {
+      "model": "minecraft:block/attached_melon_stem",
+      "y": 180
+    },
+    "facing=north": {
+      "model": "minecraft:block/attached_melon_stem",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "minecraft:block/attached_melon_stem",
+      "y": 270
+    },
+    "facing=west": {
+      "model": "minecraft:block/attached_melon_stem"
+    }
   }
 }

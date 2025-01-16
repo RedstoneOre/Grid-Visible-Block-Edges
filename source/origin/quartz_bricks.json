@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "minecraft:block/quartz_bricks"
+  "variants": {
+    "": {
+      "model": "minecraft:block/quartz_bricks"
+    }
   }
 }

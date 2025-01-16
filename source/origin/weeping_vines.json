@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/cross",
-  "textures": {
-    "cross": "minecraft:block/weeping_vines"
+  "variants": {
+    "": {
+      "model": "minecraft:block/weeping_vines"
+    }
   }
 }

@@ -1,0 +1,181 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "minecraft:block/pitcher_crop_bottom_stage_0"
+      },
+      "when": {
+        "AND": [
+          {
+            "age": "0"
+          },
+          {
+            "half": "lower"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/pitcher_crop_top_stage_0"
+      },
+      "when": {
+        "AND": [
+          {
+            "age": "0"
+          },
+          {
+            "half": "upper"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/pitcher_crop_bottom_stage_1"
+      },
+      "when": {
+        "AND": [
+          {
+            "age": "1"
+          },
+          {
+            "half": "lower"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/pitcher_crop_top_stage_1"
+      },
+      "when": {
+        "AND": [
+          {
+            "age": "1"
+          },
+          {
+            "half": "upper"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/pitcher_crop_bottom_stage_2"
+      },
+      "when": {
+        "AND": [
+          {
+            "age": "2"
+          },
+          {
+            "half": "lower"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/pitcher_crop_top_stage_2"
+      },
+      "when": {
+        "AND": [
+          {
+            "age": "2"
+          },
+          {
+            "half": "upper"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/pitcher_crop_bottom_stage_3"
+      },
+      "when": {
+        "AND": [
+          {
+            "age": "3"
+          },
+          {
+            "half": "lower"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/pitcher_crop_top_stage_3"
+      },
+      "when": {
+        "AND": [
+          {
+            "age": "3"
+          },
+          {
+            "half": "upper"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/pitcher_crop_bottom_stage_4"
+      },
+      "when": {
+        "AND": [
+          {
+            "age": "4"
+          },
+          {
+            "half": "lower"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/pitcher_crop_top_stage_4"
+      },
+      "when": {
+        "AND": [
+          {
+            "age": "4"
+          },
+          {
+            "half": "upper"
+          }
+        ]
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 0
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 90
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 180
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 270
+        }
+      ],
+      "when": {
+        "AND": []
+      }
+    }
+  ]
+}

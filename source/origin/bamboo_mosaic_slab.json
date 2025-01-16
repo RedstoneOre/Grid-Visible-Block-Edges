@@ -1,8 +1,13 @@
 {
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "bottom": "minecraft:block/bamboo_mosaic",
-    "side": "minecraft:block/bamboo_mosaic",
-    "top": "minecraft:block/bamboo_mosaic"
+  "variants": {
+    "type=bottom": {
+      "model": "minecraft:block/bamboo_mosaic_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/bamboo_mosaic"
+    },
+    "type=top": {
+      "model": "minecraft:block/bamboo_mosaic_slab_top"
+    }
   }
 }

@@ -1,8 +1,24 @@
 {
-  "parent": "minecraft:block/cube_bottom_top",
-  "textures": {
-    "bottom": "minecraft:block/dirt",
-    "side": "minecraft:block/mycelium_side",
-    "top": "minecraft:block/mycelium_top"
+  "variants": {
+    "snowy=false": [
+      {
+        "model": "minecraft:block/mycelium"
+      },
+      {
+        "model": "minecraft:block/mycelium",
+        "y": 90
+      },
+      {
+        "model": "minecraft:block/mycelium",
+        "y": 180
+      },
+      {
+        "model": "minecraft:block/mycelium",
+        "y": 270
+      }
+    ],
+    "snowy=true": {
+      "model": "minecraft:block/grass_block_snow"
+    }
   }
 }

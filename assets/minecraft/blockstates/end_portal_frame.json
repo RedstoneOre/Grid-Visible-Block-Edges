@@ -1,0 +1,157 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "minecraft:block/end_portal_frame",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "eye": "false"
+          },
+          {
+            "facing": "east"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/end_portal_frame",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "eye": "false"
+          },
+          {
+            "facing": "north"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/end_portal_frame"
+      },
+      "when": {
+        "AND": [
+          {
+            "eye": "false"
+          },
+          {
+            "facing": "south"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/end_portal_frame",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "eye": "false"
+          },
+          {
+            "facing": "west"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/end_portal_frame_filled",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "eye": "true"
+          },
+          {
+            "facing": "east"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/end_portal_frame_filled",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "eye": "true"
+          },
+          {
+            "facing": "north"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/end_portal_frame_filled"
+      },
+      "when": {
+        "AND": [
+          {
+            "eye": "true"
+          },
+          {
+            "facing": "south"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/end_portal_frame_filled",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "eye": "true"
+          },
+          {
+            "facing": "west"
+          }
+        ]
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 0
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 90
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 180
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 270
+        }
+      ],
+      "when": {
+        "AND": []
+      }
+    }
+  ]
+}

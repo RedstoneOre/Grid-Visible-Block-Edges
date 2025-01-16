@@ -1,0 +1,115 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "minecraft:block/cake"
+      },
+      "when": {
+        "AND": [
+          {
+            "bites": "0"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/cake_slice1"
+      },
+      "when": {
+        "AND": [
+          {
+            "bites": "1"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/cake_slice2"
+      },
+      "when": {
+        "AND": [
+          {
+            "bites": "2"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/cake_slice3"
+      },
+      "when": {
+        "AND": [
+          {
+            "bites": "3"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/cake_slice4"
+      },
+      "when": {
+        "AND": [
+          {
+            "bites": "4"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/cake_slice5"
+      },
+      "when": {
+        "AND": [
+          {
+            "bites": "5"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/cake_slice6"
+      },
+      "when": {
+        "AND": [
+          {
+            "bites": "6"
+          }
+        ]
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 0
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 90
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 180
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 270
+        }
+      ],
+      "when": {
+        "AND": []
+      }
+    }
+  ]
+}

@@ -1,32 +1,110 @@
 {
-    "ambientocclusion": false,
-    "textures": {
-        "particle": "block/cobblestone",
-        "base": "block/cobblestone",
-        "lever": "block/lever"
+  "variants": {
+    "face=ceiling,facing=east,powered=false": {
+      "model": "minecraft:block/lever_on",
+      "x": 180,
+      "y": 270
     },
-    "elements": [
-        {   "from": [ 5, -0.02, 4 ],
-            "to": [ 11, 2.98, 12 ],
-            "faces": {
-                "down":  { "uv": [ 5, 4, 11, 12 ], "texture": "#base", "cullface": "down" },
-                "up":    { "uv": [ 5, 4, 11, 12 ], "texture": "#base" },
-                "north": { "uv": [ 5, 0, 11,  3 ], "texture": "#base" },
-                "south": { "uv": [ 5, 0, 11,  3 ], "texture": "#base" },
-                "west":  { "uv": [ 4, 0, 12,  3 ], "texture": "#base" },
-                "east":  { "uv": [ 4, 0, 12,  3 ], "texture": "#base" }
-            }
-        },
-        {   "from": [ 7, 1, 7 ],
-            "to": [ 9, 11, 9 ],
-            "rotation": { "origin": [ 8, 1, 8 ], "axis": "x", "angle": -45 },
-            "faces": {
-                "up":    { "uv": [ 7, 6, 9,  8 ], "texture": "#lever" },
-                "north": { "uv": [ 7, 6, 9, 16 ], "texture": "#lever" },
-                "south": { "uv": [ 7, 6, 9, 16 ], "texture": "#lever" },
-                "west":  { "uv": [ 7, 6, 9, 16 ], "texture": "#lever" },
-                "east":  { "uv": [ 7, 6, 9, 16 ], "texture": "#lever" }
-            }
-        }
-    ]
+    "face=ceiling,facing=east,powered=true": {
+      "model": "minecraft:block/lever",
+      "x": 180,
+      "y": 270
+    },
+    "face=ceiling,facing=north,powered=false": {
+      "model": "minecraft:block/lever_on",
+      "x": 180,
+      "y": 180
+    },
+    "face=ceiling,facing=north,powered=true": {
+      "model": "minecraft:block/lever",
+      "x": 180,
+      "y": 180
+    },
+    "face=ceiling,facing=south,powered=false": {
+      "model": "minecraft:block/lever_on",
+      "x": 180
+    },
+    "face=ceiling,facing=south,powered=true": {
+      "model": "minecraft:block/lever",
+      "x": 180
+    },
+    "face=ceiling,facing=west,powered=false": {
+      "model": "minecraft:block/lever_on",
+      "x": 180,
+      "y": 90
+    },
+    "face=ceiling,facing=west,powered=true": {
+      "model": "minecraft:block/lever",
+      "x": 180,
+      "y": 90
+    },
+    "face=floor,facing=east,powered=false": {
+      "model": "minecraft:block/lever_on",
+      "y": 90
+    },
+    "face=floor,facing=east,powered=true": {
+      "model": "minecraft:block/lever",
+      "y": 90
+    },
+    "face=floor,facing=north,powered=false": {
+      "model": "minecraft:block/lever_on"
+    },
+    "face=floor,facing=north,powered=true": {
+      "model": "minecraft:block/lever"
+    },
+    "face=floor,facing=south,powered=false": {
+      "model": "minecraft:block/lever_on",
+      "y": 180
+    },
+    "face=floor,facing=south,powered=true": {
+      "model": "minecraft:block/lever",
+      "y": 180
+    },
+    "face=floor,facing=west,powered=false": {
+      "model": "minecraft:block/lever_on",
+      "y": 270
+    },
+    "face=floor,facing=west,powered=true": {
+      "model": "minecraft:block/lever",
+      "y": 270
+    },
+    "face=wall,facing=east,powered=false": {
+      "model": "minecraft:block/lever_on",
+      "x": 90,
+      "y": 90
+    },
+    "face=wall,facing=east,powered=true": {
+      "model": "minecraft:block/lever",
+      "x": 90,
+      "y": 90
+    },
+    "face=wall,facing=north,powered=false": {
+      "model": "minecraft:block/lever_on",
+      "x": 90
+    },
+    "face=wall,facing=north,powered=true": {
+      "model": "minecraft:block/lever",
+      "x": 90
+    },
+    "face=wall,facing=south,powered=false": {
+      "model": "minecraft:block/lever_on",
+      "x": 90,
+      "y": 180
+    },
+    "face=wall,facing=south,powered=true": {
+      "model": "minecraft:block/lever",
+      "x": 90,
+      "y": 180
+    },
+    "face=wall,facing=west,powered=false": {
+      "model": "minecraft:block/lever_on",
+      "x": 90,
+      "y": 270
+    },
+    "face=wall,facing=west,powered=true": {
+      "model": "minecraft:block/lever",
+      "x": 90,
+      "y": 270
+    }
+  }
 }

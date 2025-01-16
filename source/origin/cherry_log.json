@@ -1,7 +1,13 @@
 {
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "minecraft:block/cherry_log_top",
-    "side": "minecraft:block/cherry_log"
+  "variants": {
+    "axis=x": {
+      "model": "minecraft:block/cherry_log_x"
+    },
+    "axis=y": {
+      "model": "minecraft:block/cherry_log_y"
+    },
+    "axis=z": {
+      "model": "minecraft:block/cherry_log_z"
+    }
   }
 }

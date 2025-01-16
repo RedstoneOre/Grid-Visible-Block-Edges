@@ -1,0 +1,67 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "minecraft:block/sculk_sensor_active"
+      },
+      "when": {
+        "AND": [
+          {
+            "sculk_sensor_phase": "active"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/sculk_sensor_active"
+      },
+      "when": {
+        "AND": [
+          {
+            "sculk_sensor_phase": "cooldown"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/sculk_sensor_inactive"
+      },
+      "when": {
+        "AND": [
+          {
+            "sculk_sensor_phase": "inactive"
+          }
+        ]
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 0
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 90
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 180
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 270
+        }
+      ],
+      "when": {
+        "AND": []
+      }
+    }
+  ]
+}

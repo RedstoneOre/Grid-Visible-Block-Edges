@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "minecraft:block/brain_coral_block"
+  "variants": {
+    "": {
+      "model": "minecraft:block/brain_coral_block"
+    }
   }
 }

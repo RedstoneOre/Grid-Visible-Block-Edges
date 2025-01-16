@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/cross",
-  "textures": {
-    "cross": "minecraft:block/kelp"
+  "variants": {
+    "": {
+      "model": "minecraft:block/kelp"
+    }
   }
 }

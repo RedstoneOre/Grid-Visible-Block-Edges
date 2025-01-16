@@ -1,8 +1,13 @@
 {
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "bottom": "minecraft:block/cherry_planks",
-    "side": "minecraft:block/cherry_planks",
-    "top": "minecraft:block/cherry_planks"
+  "variants": {
+    "type=bottom": {
+      "model": "minecraft:block/cherry_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/cherry_planks"
+    },
+    "type=top": {
+      "model": "minecraft:block/cherry_slab_top"
+    }
   }
 }

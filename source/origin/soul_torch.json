@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/template_torch",
-  "textures": {
-    "torch": "minecraft:block/soul_torch"
+  "variants": {
+    "": {
+      "model": "minecraft:block/soul_torch"
+    }
   }
 }

@@ -1,10 +1,94 @@
 {
-  "parent": "minecraft:block/orientable_with_bottom",
-  "textures": {
-    "bottom": "minecraft:block/bee_nest_bottom",
-    "front": "minecraft:block/bee_nest_front",
-    "particle": "minecraft:block/bee_nest_side",
-    "side": "minecraft:block/bee_nest_side",
-    "top": "minecraft:block/bee_nest_top"
+  "variants": {
+    "facing=east,honey_level=0": {
+      "model": "minecraft:block/bee_nest_empty",
+      "y": 90
+    },
+    "facing=east,honey_level=1": {
+      "model": "minecraft:block/bee_nest_empty",
+      "y": 90
+    },
+    "facing=east,honey_level=2": {
+      "model": "minecraft:block/bee_nest_empty",
+      "y": 90
+    },
+    "facing=east,honey_level=3": {
+      "model": "minecraft:block/bee_nest_empty",
+      "y": 90
+    },
+    "facing=east,honey_level=4": {
+      "model": "minecraft:block/bee_nest_empty",
+      "y": 90
+    },
+    "facing=east,honey_level=5": {
+      "model": "minecraft:block/bee_nest_honey",
+      "y": 90
+    },
+    "facing=north,honey_level=0": {
+      "model": "minecraft:block/bee_nest_empty"
+    },
+    "facing=north,honey_level=1": {
+      "model": "minecraft:block/bee_nest_empty"
+    },
+    "facing=north,honey_level=2": {
+      "model": "minecraft:block/bee_nest_empty"
+    },
+    "facing=north,honey_level=3": {
+      "model": "minecraft:block/bee_nest_empty"
+    },
+    "facing=north,honey_level=4": {
+      "model": "minecraft:block/bee_nest_empty"
+    },
+    "facing=north,honey_level=5": {
+      "model": "minecraft:block/bee_nest_honey"
+    },
+    "facing=south,honey_level=0": {
+      "model": "minecraft:block/bee_nest_empty",
+      "y": 180
+    },
+    "facing=south,honey_level=1": {
+      "model": "minecraft:block/bee_nest_empty",
+      "y": 180
+    },
+    "facing=south,honey_level=2": {
+      "model": "minecraft:block/bee_nest_empty",
+      "y": 180
+    },
+    "facing=south,honey_level=3": {
+      "model": "minecraft:block/bee_nest_empty",
+      "y": 180
+    },
+    "facing=south,honey_level=4": {
+      "model": "minecraft:block/bee_nest_empty",
+      "y": 180
+    },
+    "facing=south,honey_level=5": {
+      "model": "minecraft:block/bee_nest_honey",
+      "y": 180
+    },
+    "facing=west,honey_level=0": {
+      "model": "minecraft:block/bee_nest_empty",
+      "y": 270
+    },
+    "facing=west,honey_level=1": {
+      "model": "minecraft:block/bee_nest_empty",
+      "y": 270
+    },
+    "facing=west,honey_level=2": {
+      "model": "minecraft:block/bee_nest_empty",
+      "y": 270
+    },
+    "facing=west,honey_level=3": {
+      "model": "minecraft:block/bee_nest_empty",
+      "y": 270
+    },
+    "facing=west,honey_level=4": {
+      "model": "minecraft:block/bee_nest_empty",
+      "y": 270
+    },
+    "facing=west,honey_level=5": {
+      "model": "minecraft:block/bee_nest_honey",
+      "y": 270
+    }
   }
 }

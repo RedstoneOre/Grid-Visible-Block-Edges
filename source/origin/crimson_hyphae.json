@@ -1,7 +1,16 @@
 {
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "minecraft:block/crimson_stem",
-    "side": "minecraft:block/crimson_stem"
+  "variants": {
+    "axis=x": {
+      "model": "minecraft:block/crimson_hyphae",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "minecraft:block/crimson_hyphae"
+    },
+    "axis=z": {
+      "model": "minecraft:block/crimson_hyphae",
+      "x": 90
+    }
   }
 }

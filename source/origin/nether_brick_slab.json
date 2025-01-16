@@ -1,8 +1,13 @@
 {
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "bottom": "minecraft:block/nether_bricks",
-    "side": "minecraft:block/nether_bricks",
-    "top": "minecraft:block/nether_bricks"
+  "variants": {
+    "type=bottom": {
+      "model": "minecraft:block/nether_brick_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/nether_bricks"
+    },
+    "type=top": {
+      "model": "minecraft:block/nether_brick_slab_top"
+    }
   }
 }

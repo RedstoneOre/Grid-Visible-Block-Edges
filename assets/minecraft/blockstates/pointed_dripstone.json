@@ -1,0 +1,181 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "minecraft:block/pointed_dripstone_down_base"
+      },
+      "when": {
+        "AND": [
+          {
+            "thickness": "base"
+          },
+          {
+            "vertical_direction": "down"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/pointed_dripstone_up_base"
+      },
+      "when": {
+        "AND": [
+          {
+            "thickness": "base"
+          },
+          {
+            "vertical_direction": "up"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/pointed_dripstone_down_frustum"
+      },
+      "when": {
+        "AND": [
+          {
+            "thickness": "frustum"
+          },
+          {
+            "vertical_direction": "down"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/pointed_dripstone_up_frustum"
+      },
+      "when": {
+        "AND": [
+          {
+            "thickness": "frustum"
+          },
+          {
+            "vertical_direction": "up"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/pointed_dripstone_down_middle"
+      },
+      "when": {
+        "AND": [
+          {
+            "thickness": "middle"
+          },
+          {
+            "vertical_direction": "down"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/pointed_dripstone_up_middle"
+      },
+      "when": {
+        "AND": [
+          {
+            "thickness": "middle"
+          },
+          {
+            "vertical_direction": "up"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/pointed_dripstone_down_tip"
+      },
+      "when": {
+        "AND": [
+          {
+            "thickness": "tip"
+          },
+          {
+            "vertical_direction": "down"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/pointed_dripstone_up_tip"
+      },
+      "when": {
+        "AND": [
+          {
+            "thickness": "tip"
+          },
+          {
+            "vertical_direction": "up"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/pointed_dripstone_down_tip_merge"
+      },
+      "when": {
+        "AND": [
+          {
+            "thickness": "tip_merge"
+          },
+          {
+            "vertical_direction": "down"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/pointed_dripstone_up_tip_merge"
+      },
+      "when": {
+        "AND": [
+          {
+            "thickness": "tip_merge"
+          },
+          {
+            "vertical_direction": "up"
+          }
+        ]
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 0
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 90
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 180
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 270
+        }
+      ],
+      "when": {
+        "AND": []
+      }
+    }
+  ]
+}

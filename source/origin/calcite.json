@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "minecraft:block/calcite"
+  "variants": {
+    "": {
+      "model": "minecraft:block/calcite"
+    }
   }
 }

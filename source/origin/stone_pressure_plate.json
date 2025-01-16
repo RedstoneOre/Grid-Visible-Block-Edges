@@ -1,6 +1,10 @@
 {
-  "parent": "minecraft:block/pressure_plate_up",
-  "textures": {
-    "texture": "minecraft:block/stone"
+  "variants": {
+    "powered=false": {
+      "model": "minecraft:block/stone_pressure_plate"
+    },
+    "powered=true": {
+      "model": "minecraft:block/stone_pressure_plate_down"
+    }
   }
 }

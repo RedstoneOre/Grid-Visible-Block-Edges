@@ -1,6 +1,10 @@
 {
-  "parent": "minecraft:block/pressure_plate_up",
-  "textures": {
-    "texture": "minecraft:block/jungle_planks"
+  "variants": {
+    "powered=false": {
+      "model": "minecraft:block/jungle_pressure_plate"
+    },
+    "powered=true": {
+      "model": "minecraft:block/jungle_pressure_plate_down"
+    }
   }
 }

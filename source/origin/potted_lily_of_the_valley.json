@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/flower_pot_cross",
-  "textures": {
-    "plant": "minecraft:block/lily_of_the_valley"
+  "variants": {
+    "": {
+      "model": "minecraft:block/potted_lily_of_the_valley"
+    }
   }
 }

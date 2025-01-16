@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/cross",
-  "textures": {
-    "cross": "minecraft:block/blue_orchid"
+  "variants": {
+    "": {
+      "model": "minecraft:block/blue_orchid"
+    }
   }
 }

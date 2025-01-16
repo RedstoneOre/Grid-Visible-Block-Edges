@@ -1,7 +1,16 @@
 {
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "minecraft:block/mangrove_log",
-    "side": "minecraft:block/mangrove_log"
+  "variants": {
+    "axis=x": {
+      "model": "minecraft:block/mangrove_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "minecraft:block/mangrove_wood"
+    },
+    "axis=z": {
+      "model": "minecraft:block/mangrove_wood",
+      "x": 90
+    }
   }
 }

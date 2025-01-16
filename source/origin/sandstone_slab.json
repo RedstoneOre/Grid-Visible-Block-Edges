@@ -1,8 +1,13 @@
 {
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "bottom": "minecraft:block/sandstone_bottom",
-    "side": "minecraft:block/sandstone",
-    "top": "minecraft:block/sandstone_top"
+  "variants": {
+    "type=bottom": {
+      "model": "minecraft:block/sandstone_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/sandstone"
+    },
+    "type=top": {
+      "model": "minecraft:block/sandstone_slab_top"
+    }
   }
 }

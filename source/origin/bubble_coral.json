@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/cross",
-  "textures": {
-    "cross": "minecraft:block/bubble_coral"
+  "variants": {
+    "": {
+      "model": "minecraft:block/bubble_coral"
+    }
   }
 }

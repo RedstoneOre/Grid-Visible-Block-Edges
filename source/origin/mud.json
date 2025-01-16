@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "minecraft:block/mud"
+  "variants": {
+    "": {
+      "model": "minecraft:block/mud"
+    }
   }
 }

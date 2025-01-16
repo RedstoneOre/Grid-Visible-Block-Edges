@@ -1,0 +1,631 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "minecraft:block/vault_active",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "east"
+          },
+          {
+            "ominous": "false"
+          },
+          {
+            "vault_state": "active"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/vault_ejecting_reward",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "east"
+          },
+          {
+            "ominous": "false"
+          },
+          {
+            "vault_state": "ejecting"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/vault",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "east"
+          },
+          {
+            "ominous": "false"
+          },
+          {
+            "vault_state": "inactive"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/vault_unlocking",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "east"
+          },
+          {
+            "ominous": "false"
+          },
+          {
+            "vault_state": "unlocking"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/vault_active_ominous",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "east"
+          },
+          {
+            "ominous": "true"
+          },
+          {
+            "vault_state": "active"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/vault_ejecting_reward_ominous",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "east"
+          },
+          {
+            "ominous": "true"
+          },
+          {
+            "vault_state": "ejecting"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/vault_ominous",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "east"
+          },
+          {
+            "ominous": "true"
+          },
+          {
+            "vault_state": "inactive"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/vault_unlocking_ominous",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "east"
+          },
+          {
+            "ominous": "true"
+          },
+          {
+            "vault_state": "unlocking"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/vault_active"
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "north"
+          },
+          {
+            "ominous": "false"
+          },
+          {
+            "vault_state": "active"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/vault_ejecting_reward"
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "north"
+          },
+          {
+            "ominous": "false"
+          },
+          {
+            "vault_state": "ejecting"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/vault"
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "north"
+          },
+          {
+            "ominous": "false"
+          },
+          {
+            "vault_state": "inactive"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/vault_unlocking"
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "north"
+          },
+          {
+            "ominous": "false"
+          },
+          {
+            "vault_state": "unlocking"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/vault_active_ominous"
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "north"
+          },
+          {
+            "ominous": "true"
+          },
+          {
+            "vault_state": "active"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/vault_ejecting_reward_ominous"
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "north"
+          },
+          {
+            "ominous": "true"
+          },
+          {
+            "vault_state": "ejecting"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/vault_ominous"
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "north"
+          },
+          {
+            "ominous": "true"
+          },
+          {
+            "vault_state": "inactive"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/vault_unlocking_ominous"
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "north"
+          },
+          {
+            "ominous": "true"
+          },
+          {
+            "vault_state": "unlocking"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/vault_active",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "south"
+          },
+          {
+            "ominous": "false"
+          },
+          {
+            "vault_state": "active"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/vault_ejecting_reward",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "south"
+          },
+          {
+            "ominous": "false"
+          },
+          {
+            "vault_state": "ejecting"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/vault",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "south"
+          },
+          {
+            "ominous": "false"
+          },
+          {
+            "vault_state": "inactive"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/vault_unlocking",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "south"
+          },
+          {
+            "ominous": "false"
+          },
+          {
+            "vault_state": "unlocking"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/vault_active_ominous",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "south"
+          },
+          {
+            "ominous": "true"
+          },
+          {
+            "vault_state": "active"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/vault_ejecting_reward_ominous",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "south"
+          },
+          {
+            "ominous": "true"
+          },
+          {
+            "vault_state": "ejecting"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/vault_ominous",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "south"
+          },
+          {
+            "ominous": "true"
+          },
+          {
+            "vault_state": "inactive"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/vault_unlocking_ominous",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "south"
+          },
+          {
+            "ominous": "true"
+          },
+          {
+            "vault_state": "unlocking"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/vault_active",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "west"
+          },
+          {
+            "ominous": "false"
+          },
+          {
+            "vault_state": "active"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/vault_ejecting_reward",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "west"
+          },
+          {
+            "ominous": "false"
+          },
+          {
+            "vault_state": "ejecting"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/vault",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "west"
+          },
+          {
+            "ominous": "false"
+          },
+          {
+            "vault_state": "inactive"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/vault_unlocking",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "west"
+          },
+          {
+            "ominous": "false"
+          },
+          {
+            "vault_state": "unlocking"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/vault_active_ominous",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "west"
+          },
+          {
+            "ominous": "true"
+          },
+          {
+            "vault_state": "active"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/vault_ejecting_reward_ominous",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "west"
+          },
+          {
+            "ominous": "true"
+          },
+          {
+            "vault_state": "ejecting"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/vault_ominous",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "west"
+          },
+          {
+            "ominous": "true"
+          },
+          {
+            "vault_state": "inactive"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/vault_unlocking_ominous",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "west"
+          },
+          {
+            "ominous": "true"
+          },
+          {
+            "vault_state": "unlocking"
+          }
+        ]
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 0
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 90
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 180
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 270
+        }
+      ],
+      "when": {
+        "AND": []
+      }
+    }
+  ]
+}

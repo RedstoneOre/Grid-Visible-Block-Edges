@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "minecraft:block/lapis_ore"
+  "variants": {
+    "": {
+      "model": "minecraft:block/lapis_ore"
+    }
   }
 }

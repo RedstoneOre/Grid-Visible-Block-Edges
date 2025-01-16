@@ -1,9 +1,19 @@
 {
-  "parent": "minecraft:block/orientable_with_bottom",
-  "textures": {
-    "bottom": "minecraft:block/loom_bottom",
-    "front": "minecraft:block/loom_front",
-    "side": "minecraft:block/loom_side",
-    "top": "minecraft:block/loom_top"
+  "variants": {
+    "facing=east": {
+      "model": "minecraft:block/loom",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "minecraft:block/loom"
+    },
+    "facing=south": {
+      "model": "minecraft:block/loom",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "minecraft:block/loom",
+      "y": 270
+    }
   }
 }

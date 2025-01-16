@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/tinted_cross",
-  "textures": {
-    "cross": "minecraft:block/bamboo_stage0"
+  "variants": {
+    "": {
+      "model": "minecraft:block/bamboo_sapling"
+    }
   }
 }

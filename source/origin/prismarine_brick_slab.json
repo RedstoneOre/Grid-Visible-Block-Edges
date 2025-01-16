@@ -1,8 +1,13 @@
 {
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "bottom": "minecraft:block/prismarine_bricks",
-    "side": "minecraft:block/prismarine_bricks",
-    "top": "minecraft:block/prismarine_bricks"
+  "variants": {
+    "type=bottom": {
+      "model": "minecraft:block/prismarine_brick_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/prismarine_bricks"
+    },
+    "type=top": {
+      "model": "minecraft:block/prismarine_brick_slab_top"
+    }
   }
 }

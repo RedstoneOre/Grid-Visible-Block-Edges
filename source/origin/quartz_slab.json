@@ -1,8 +1,13 @@
 {
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "bottom": "minecraft:block/quartz_block_top",
-    "side": "minecraft:block/quartz_block_side",
-    "top": "minecraft:block/quartz_block_top"
+  "variants": {
+    "type=bottom": {
+      "model": "minecraft:block/quartz_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/quartz_block"
+    },
+    "type=top": {
+      "model": "minecraft:block/quartz_slab_top"
+    }
   }
 }

@@ -1,0 +1,157 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "minecraft:block/small_dripleaf_bottom",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "east"
+          },
+          {
+            "half": "lower"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/small_dripleaf_top",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "east"
+          },
+          {
+            "half": "upper"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/small_dripleaf_bottom"
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "north"
+          },
+          {
+            "half": "lower"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/small_dripleaf_top"
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "north"
+          },
+          {
+            "half": "upper"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/small_dripleaf_bottom",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "south"
+          },
+          {
+            "half": "lower"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/small_dripleaf_top",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "south"
+          },
+          {
+            "half": "upper"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/small_dripleaf_bottom",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "west"
+          },
+          {
+            "half": "lower"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/small_dripleaf_top",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "west"
+          },
+          {
+            "half": "upper"
+          }
+        ]
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 0
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 90
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 180
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 270
+        }
+      ],
+      "when": {
+        "AND": []
+      }
+    }
+  ]
+}

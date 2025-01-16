@@ -1,6 +1,19 @@
 {
-  "parent": "minecraft:block/template_anvil",
-  "textures": {
-    "top": "minecraft:block/chipped_anvil_top"
+  "variants": {
+    "facing=east": {
+      "model": "minecraft:block/chipped_anvil",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "minecraft:block/chipped_anvil",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "minecraft:block/chipped_anvil"
+    },
+    "facing=west": {
+      "model": "minecraft:block/chipped_anvil",
+      "y": 90
+    }
   }
 }

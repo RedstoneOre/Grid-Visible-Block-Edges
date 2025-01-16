@@ -12,5 +12,5 @@
 3. You can simply get a general understanding of the situation of the blocks from a distance.
 
 ### Note
-1. This package has modified many aspects of the block model, therefore it may be incompatible with some other resource packs about blocks. Please try to give this resource pack a higher priority first.
-+ If other resource packs do not include 3D, intricate models, X-rays, etc., that affect block models, then the possibility of conflict is very low.
+1. This package has modified many aspects of the block state models, therefore it may be incompatible with some other resource packs about blocks. Please try to give this resource pack a higher priority first.
++ If other resource packs do not include 3D, visible rotation, redstone tweaks, etc., that affect block state models, then the possibility of conflict is very low.

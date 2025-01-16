@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "minecraft:block/cyan_concrete"
+  "variants": {
+    "": {
+      "model": "minecraft:block/cyan_concrete"
+    }
   }
 }

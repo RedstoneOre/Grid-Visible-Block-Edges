@@ -1,0 +1,819 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "minecraft:block/tripwire_ns"
+      },
+      "when": {
+        "AND": [
+          {
+            "attached": "false"
+          },
+          {
+            "east": "false"
+          },
+          {
+            "north": "false"
+          },
+          {
+            "south": "false"
+          },
+          {
+            "west": "false"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/tripwire_n",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "attached": "false"
+          },
+          {
+            "east": "false"
+          },
+          {
+            "north": "false"
+          },
+          {
+            "south": "false"
+          },
+          {
+            "west": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/tripwire_n",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "attached": "false"
+          },
+          {
+            "east": "false"
+          },
+          {
+            "north": "false"
+          },
+          {
+            "south": "true"
+          },
+          {
+            "west": "false"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/tripwire_ne",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "attached": "false"
+          },
+          {
+            "east": "false"
+          },
+          {
+            "north": "false"
+          },
+          {
+            "south": "true"
+          },
+          {
+            "west": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/tripwire_n"
+      },
+      "when": {
+        "AND": [
+          {
+            "attached": "false"
+          },
+          {
+            "east": "false"
+          },
+          {
+            "north": "true"
+          },
+          {
+            "south": "false"
+          },
+          {
+            "west": "false"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/tripwire_ne",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "attached": "false"
+          },
+          {
+            "east": "false"
+          },
+          {
+            "north": "true"
+          },
+          {
+            "south": "false"
+          },
+          {
+            "west": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/tripwire_ns"
+      },
+      "when": {
+        "AND": [
+          {
+            "attached": "false"
+          },
+          {
+            "east": "false"
+          },
+          {
+            "north": "true"
+          },
+          {
+            "south": "true"
+          },
+          {
+            "west": "false"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/tripwire_nse",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "attached": "false"
+          },
+          {
+            "east": "false"
+          },
+          {
+            "north": "true"
+          },
+          {
+            "south": "true"
+          },
+          {
+            "west": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/tripwire_n",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "attached": "false"
+          },
+          {
+            "east": "true"
+          },
+          {
+            "north": "false"
+          },
+          {
+            "south": "false"
+          },
+          {
+            "west": "false"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/tripwire_ns",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "attached": "false"
+          },
+          {
+            "east": "true"
+          },
+          {
+            "north": "false"
+          },
+          {
+            "south": "false"
+          },
+          {
+            "west": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/tripwire_ne",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "attached": "false"
+          },
+          {
+            "east": "true"
+          },
+          {
+            "north": "false"
+          },
+          {
+            "south": "true"
+          },
+          {
+            "west": "false"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/tripwire_nse",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "attached": "false"
+          },
+          {
+            "east": "true"
+          },
+          {
+            "north": "false"
+          },
+          {
+            "south": "true"
+          },
+          {
+            "west": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/tripwire_ne"
+      },
+      "when": {
+        "AND": [
+          {
+            "attached": "false"
+          },
+          {
+            "east": "true"
+          },
+          {
+            "north": "true"
+          },
+          {
+            "south": "false"
+          },
+          {
+            "west": "false"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/tripwire_nse",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "attached": "false"
+          },
+          {
+            "east": "true"
+          },
+          {
+            "north": "true"
+          },
+          {
+            "south": "false"
+          },
+          {
+            "west": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/tripwire_nse"
+      },
+      "when": {
+        "AND": [
+          {
+            "attached": "false"
+          },
+          {
+            "east": "true"
+          },
+          {
+            "north": "true"
+          },
+          {
+            "south": "true"
+          },
+          {
+            "west": "false"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/tripwire_nsew"
+      },
+      "when": {
+        "AND": [
+          {
+            "attached": "false"
+          },
+          {
+            "east": "true"
+          },
+          {
+            "north": "true"
+          },
+          {
+            "south": "true"
+          },
+          {
+            "west": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/tripwire_attached_ns"
+      },
+      "when": {
+        "AND": [
+          {
+            "attached": "true"
+          },
+          {
+            "east": "false"
+          },
+          {
+            "north": "false"
+          },
+          {
+            "south": "false"
+          },
+          {
+            "west": "false"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/tripwire_attached_n",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "attached": "true"
+          },
+          {
+            "east": "false"
+          },
+          {
+            "north": "false"
+          },
+          {
+            "south": "false"
+          },
+          {
+            "west": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/tripwire_attached_n",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "attached": "true"
+          },
+          {
+            "east": "false"
+          },
+          {
+            "north": "false"
+          },
+          {
+            "south": "true"
+          },
+          {
+            "west": "false"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/tripwire_attached_ne",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "attached": "true"
+          },
+          {
+            "east": "false"
+          },
+          {
+            "north": "false"
+          },
+          {
+            "south": "true"
+          },
+          {
+            "west": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/tripwire_attached_n"
+      },
+      "when": {
+        "AND": [
+          {
+            "attached": "true"
+          },
+          {
+            "east": "false"
+          },
+          {
+            "north": "true"
+          },
+          {
+            "south": "false"
+          },
+          {
+            "west": "false"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/tripwire_attached_ne",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "attached": "true"
+          },
+          {
+            "east": "false"
+          },
+          {
+            "north": "true"
+          },
+          {
+            "south": "false"
+          },
+          {
+            "west": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/tripwire_attached_ns"
+      },
+      "when": {
+        "AND": [
+          {
+            "attached": "true"
+          },
+          {
+            "east": "false"
+          },
+          {
+            "north": "true"
+          },
+          {
+            "south": "true"
+          },
+          {
+            "west": "false"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/tripwire_attached_nse",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "attached": "true"
+          },
+          {
+            "east": "false"
+          },
+          {
+            "north": "true"
+          },
+          {
+            "south": "true"
+          },
+          {
+            "west": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/tripwire_attached_n",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "attached": "true"
+          },
+          {
+            "east": "true"
+          },
+          {
+            "north": "false"
+          },
+          {
+            "south": "false"
+          },
+          {
+            "west": "false"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/tripwire_attached_ns",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "attached": "true"
+          },
+          {
+            "east": "true"
+          },
+          {
+            "north": "false"
+          },
+          {
+            "south": "false"
+          },
+          {
+            "west": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/tripwire_attached_ne",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "attached": "true"
+          },
+          {
+            "east": "true"
+          },
+          {
+            "north": "false"
+          },
+          {
+            "south": "true"
+          },
+          {
+            "west": "false"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/tripwire_attached_nse",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "attached": "true"
+          },
+          {
+            "east": "true"
+          },
+          {
+            "north": "false"
+          },
+          {
+            "south": "true"
+          },
+          {
+            "west": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/tripwire_attached_ne"
+      },
+      "when": {
+        "AND": [
+          {
+            "attached": "true"
+          },
+          {
+            "east": "true"
+          },
+          {
+            "north": "true"
+          },
+          {
+            "south": "false"
+          },
+          {
+            "west": "false"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/tripwire_attached_nse",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "attached": "true"
+          },
+          {
+            "east": "true"
+          },
+          {
+            "north": "true"
+          },
+          {
+            "south": "false"
+          },
+          {
+            "west": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/tripwire_attached_nse"
+      },
+      "when": {
+        "AND": [
+          {
+            "attached": "true"
+          },
+          {
+            "east": "true"
+          },
+          {
+            "north": "true"
+          },
+          {
+            "south": "true"
+          },
+          {
+            "west": "false"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/tripwire_attached_nsew"
+      },
+      "when": {
+        "AND": [
+          {
+            "attached": "true"
+          },
+          {
+            "east": "true"
+          },
+          {
+            "north": "true"
+          },
+          {
+            "south": "true"
+          },
+          {
+            "west": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 0
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 90
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 180
+        },
+        {
+          "model": "grid_visible_block_edges:block/main",
+          "uvlock": false,
+          "x": 270
+        }
+      ],
+      "when": {
+        "AND": []
+      }
+    }
+  ]
+}

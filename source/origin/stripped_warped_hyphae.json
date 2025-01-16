@@ -1,7 +1,16 @@
 {
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "minecraft:block/stripped_warped_stem",
-    "side": "minecraft:block/stripped_warped_stem"
+  "variants": {
+    "axis=x": {
+      "model": "minecraft:block/stripped_warped_hyphae",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "minecraft:block/stripped_warped_hyphae"
+    },
+    "axis=z": {
+      "model": "minecraft:block/stripped_warped_hyphae",
+      "x": 90
+    }
   }
 }

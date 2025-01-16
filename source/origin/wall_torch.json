@@ -1,6 +1,19 @@
 {
-  "parent": "minecraft:block/template_torch_wall",
-  "textures": {
-    "torch": "minecraft:block/torch"
+  "variants": {
+    "facing=east": {
+      "model": "minecraft:block/wall_torch"
+    },
+    "facing=north": {
+      "model": "minecraft:block/wall_torch",
+      "y": 270
+    },
+    "facing=south": {
+      "model": "minecraft:block/wall_torch",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "minecraft:block/wall_torch",
+      "y": 180
+    }
   }
 }
